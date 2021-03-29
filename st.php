@@ -30,7 +30,7 @@ include 'plantilla/cabecera.php'
 </div>
 
 <!-- ESTRUCTURA SERVICIO -->
-<div class="row mt-3">
+<div class="row mt-3 d-none d-sm-none d-md-block" >
     <div class="col-8 stecnico ">
         <div class="card d-inline-block " style="width: 15rem;">
 
@@ -146,7 +146,7 @@ include 'plantilla/cabecera.php'
             distinctio dolor, sed eius, ducimus est architecto similique ea dignissimos consequatur incidunt laboriosam
             ad. Doloremque.</p>
     </div>
-    <div class="col-md-4 col-sm-3" id="stdescriptodo">
+    <div class="col-md-4 col-sd-3" id="stdescriptodo">
         <img src="..." class="card-img-top mt-2" alt="...">
         <h3 class="d-inline-block">REDES DE DATOS </h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur cum maiores in tempore, quod aliquid
@@ -173,15 +173,15 @@ include 'plantilla/cabecera.php'
 
 <!-- BOTONES -->
 
-<div class="row mt-3">
-    <div class="col-md-4">
-        <button class="btn btn-primary" id="buton1">Solicitar Servicio</button>
+<div class="row mt-3  col-sm-4 col-md-12 btn_form ">
+    <div class=" ">
+        <button class="btn btn-primary mr-2" id="buton1">Solicitar Servicio</button>
     </div>
-    <div class="col-md-4">
-        <button class="btn btn-primary" id="buton2">Presupuesto</button>
+    <div class="">
+        <button class="btn btn-primary mr-2" id="buton2">Presupuesto</button>
     </div>
-    <div class="col-md-4">
-        <button class="btn btn-primary" id="buton3">Por asignar</button>
+    <div class="">
+        <button class="btn btn-primary mr-2" id="buton3">Por asignar</button>
     </div>
 
 </div>
