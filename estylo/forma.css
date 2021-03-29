@@ -1,0 +1,662 @@
+/* PAGINA INDEX */
+.banner1 h5{
+   text-transform: uppercase; 
+}
+
+.banner1 p{
+    text-transform:capitalize;
+}
+
+.contenidocard h5{
+    text-transform: uppercase; 
+    font-weight: 900;
+    
+}
+
+.contenidocard p{
+    text-transform: none; 
+    text-indent: 30px;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 20px;
+    
+}
+
+#cajatex{
+    text-align: center;
+}
+
+.modalinicio a{
+    font-size: 15px;
+}
+
+#seccion_banner{
+    height: 800px;
+   }
+
+#banner_info{
+    opacity: 0.5;
+}
+
+#banner_info h1{
+font-size: 50px;
+color: #2D3E50;
+text-decoration: overline;
+}
+
+#banner_info  p{
+    font-size: 30px;
+    color: #2D3E50;
+    
+    }
+
+
+/****************************/
+
+
+/* cabecera */
+
+
+
+/* *********** */
+
+
+/* SERVICIOS */
+
+#fondo1 p{
+    font-size: 17px;
+  
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 30%;
+
+}
+
+#img_servicio{
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+    height: 50px;
+}
+#img_servicio2{
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 20px 20px 0 0;
+    background-size: 100% auto;
+    height: 300px;
+}
+#img_servicio3{
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 20px 20px 20px 20px;
+    background-size: 100% auto;
+    
+    height: 180px;
+}
+
+#img_servicio4{
+    border: 40px;
+    border-color: black;
+    width: 80%;
+    height: 300px;
+}
+#img_nosotros{
+    border: 40px;
+    border-color: black;
+    width: 100%;
+    height: 420px;
+}
+
+#fondo1 h1{
+  font-size: 40px;
+  letter-spacing: 6px;
+  font-family: verdana, arial, helvetica;
+}
+
+/* SERVICIO - MODAL */
+
+#consultoria h5, #infraestructura h5, #seguridad h5, #desarrollo h5, #tecnico h5, #helpdesk h5   {
+    font-size: 30px;
+
+}
+
+#consultoria p, #infraestructura p, #seguridad p,  #desarrollo p, #tecnico p, #helpdesk p{
+    line-height: 30px;
+    text-indent: 30px;
+    text-justify:inter-word;
+    text-align: justify;
+}
+
+
+
+
+
+/* FIN SERVICIO - MODAL */
+
+
+/* ***************** */
+
+/* QUIENES SOMOS */
+
+#fondo1 P{
+margin: 10px 20px;
+   font-family: verdana, arial, helvetica;
+   line-height: 22px;
+   font-size: 16px;
+   text-indent: 20px;
+   
+   
+
+
+}
+
+/* SERVICIO TECNICO */
+
+.banner_servicio{
+    height: 800px;
+}
+#buton1, #buton2, #buton3{
+    width: 300px;
+    height: 120px;
+}
+
+#stdescriptodo{
+  border:outset;
+}
+
+#stdescrip h3{
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-transform: lowercase;
+    
+    font-family: verdana, arial, helvetica;
+}
+
+#stdescrip img{
+    height: 30px;
+    width: 30px;
+}
+
+#stdescrip p{
+    text-align: justify;
+    text-indent: 40px;
+}
+
+.stecnico img{
+    height: 50px;
+    
+}
+
+
+/* FIN SERVICIO TECNICO */
+
+/* *************** */
+/* pie de pagina */
+
+#pie_principal{
+    background-color:rgb(3, 3, 3);
+   
+}
+
+#pie_principal p,a{
+    text-transform: none;
+   
+}
+
+#pie_principal1{
+    font-size: 10px;
+    color: blanchedalmond;
+}
+
+
+
+#pie_pagina{
+   
+    font-size: 16px;
+    color: blanchedalmond;
+}
+
+/* ************** */
+
+
+
+/* mision */
+
+
+
+/* * */
+
+
+
+
+#img_public{
+    border: 40px;
+    border-color: black;
+    width: 100%;
+    height: 200px;
+}
+
+
+
+
+
+
+#fondo1{
+    /* background-image: url('../imagenes/fondo3.jpg');
+    height: 100%; */
+background: rgba(183,222,237,1);
+background: -moz-linear-gradient(-45deg, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 3%, rgba(118,145,219,1) 39%, rgba(84,105,209,1) 58%, rgba(33,180,226,1) 80%, rgba(183,222,237,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(183,222,237,1)), color-stop(3%, rgba(183,222,237,1)), color-stop(39%, rgba(118,145,219,1)), color-stop(58%, rgba(84,105,209,1)), color-stop(80%, rgba(33,180,226,1)), color-stop(100%, rgba(183,222,237,1)));
+background: -webkit-linear-gradient(-45deg, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 3%, rgba(118,145,219,1) 39%, rgba(84,105,209,1) 58%, rgba(33,180,226,1) 80%, rgba(183,222,237,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 3%, rgba(118,145,219,1) 39%, rgba(84,105,209,1) 58%, rgba(33,180,226,1) 80%, rgba(183,222,237,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 3%, rgba(118,145,219,1) 39%, rgba(84,105,209,1) 58%, rgba(33,180,226,1) 80%, rgba(183,222,237,1) 100%);
+background: linear-gradient(135deg, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 3%, rgba(118,145,219,1) 39%, rgba(84,105,209,1) 58%, rgba(33,180,226,1) 80%, rgba(183,222,237,1) 100%);
+
+}
+#jum-1{
+    opacity: 0.7;
+}
+
+#fondo_carrito{
+    background-color: rgb(68, 67, 67);
+}
+
+#fondo_carrito .menu  li {
+    list-style: none;
+    padding: 14px;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+#fondo_carrito  .menu li:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#fondo_carrito .menu li a{
+    color: seashell;
+    display: block;
+    padding: 15px 20px;
+
+}
+
+ #fondo_carrito .menu li ul {
+    display: none;
+}  
+
+#fondo_carrito .menu li ul li a{
+    background: #424242;
+    color:#e9e9e9;
+
+
+}
+
+#fondo_carrito .menu .activado > a{
+    background: #1a95d5;
+    color: seashell;
+
+    }
+
+    #fondo_carrito .categorias{
+      display: block;
+      width:100px ;
+      padding: 15px 0px;
+      margin-bottom: 20px;
+      background: skyblue;
+
+      text-align: center;
+      text-decoration: none;
+      color: #fff;
+    }
+
+    #fondo_carrito .ct_item-active{
+        background: #2D3E50;
+    }
+
+    /* PAGINA EN MANTENIMIENTO */
+
+    
+
+   .mantenimiento h1{
+       font-size:40px;
+       text-align: center;
+    }
+    .mantenimiento p{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .man_imagen{
+       text-align: center;
+    }
+    .man_imagen img{
+        width: 400px;
+        height: 400px;
+        
+
+    }
+
+ /* FIN PAGINA EN MANTENIMIENTO */
+
+    /* MANEJOS DE LOS TAMAÑOS */
+
+    /* TAMAÑOS 1400 EN ADELANTE */
+
+    @media (max-width: 1400px) {
+        #seccion_banner{
+        height: 500px;
+        }
+        .banner_servicio{
+            height: 500px;
+        }
+
+         /* MODAL INICIO */
+
+      .modal-inicio{
+        text-align: center;
+
+    }
+
+     /* FIN MODAL INICIO */
+        
+       
+    }
+
+    /* FIN TAMAÑOS 1400 EN ADELANTE */
+
+    /* TAMAÑOS 998 HASTA */
+
+    @media (max-width: 998px) {
+        h5 {
+            font-size: 15px;
+        }
+        .contenidocard p {
+            font-size: 12px;
+        }
+        .contenidocard li {
+            font-size: 12px;
+        }
+        #seccion_banner{
+            height: 500px;
+        }
+
+       /* PAGINA DE SERVICIO */
+#fondo1 h1{
+    font-size: 30px;
+    
+}
+
+#fondo1 p{
+ font-size: 15px;
+ 
+}
+
+ /* MODAL INICIO */
+
+ .modal-inicio{
+    text-align: center;
+
+}
+
+ /* FIN MODAL INICIO */
+/* FIN PAGINA DE SERVICIO */  
+
+         /* PAGINA EN MANTENIMIENTO */
+
+    
+
+   .mantenimiento h1{
+    font-size:30px;
+    text-align: center;
+ }
+ .mantenimiento p{
+     font-size: 15px;
+     text-align: center;
+ }
+
+ .man_imagen{
+    text-align: center;
+ }
+ .man_imagen img{
+     width: 300px;
+     height: 300px;
+     
+
+ }
+
+
+
+ #img_servicio3{
+    border: 40px;
+    border-color: black;
+    
+    height: 150px;
+}
+ .servicio1{
+    width: 300px;
+    text-align: center;
+}
+
+
+ /* PAGINA DE SERVICIO */
+#fondo1 h1{
+    font-size: 20px;
+    
+}
+
+#fondo1 p{
+ font-size: 12px;
+ 
+}
+
+
+/* FIN PAGINA DE SERVICIO */
+
+/* FIN PAGINA EN MANTENIMIENTO */
+    }
+
+    /* FIN TAMAÑOS 1400 EN ADELANTE */
+
+    /* TAMAÑOS 576 EN ADELANTE */
+
+    @media (max-width: 576px) {
+       h5 {
+           font-size: 15px;
+       }
+
+       .contenidocard li {
+           font-size: 12px;
+       }
+
+       .contenidocard p {
+           font-size: 12px;
+       }
+
+       textarea  { 
+        height: 10em;
+        width: 25em; 
+       }
+
+       .servicio_modal .modal h1 {
+           font-family: 12px;
+       }
+       #seccion_banner{
+        height: 300px;
+       }
+
+       /* MODAL INICIO */
+
+      .modal-inicio{
+          text-align: center;
+
+      }
+
+       /* FIN MODAL INICIO */
+
+       /* SERVICIO */
+
+       #fondo1 h1{
+           font-size: 20px;
+           
+       }
+
+       #fondo1 p{
+        font-size: 12px;
+        
+    }
+
+       
+       
+       .servicio_modal #consultoria h5{
+           font-size: 14px;
+
+       }
+
+       .servicio_modal h1{
+        font-size: 20px;
+
+        }
+
+        .servicio_modal #infraestructura h5{
+        font-size: 16px;
+        }
+
+        .servicio_modal #infraestructura{
+        font-size: 14px;
+        }
+
+        .servicio_modal #infraestructura{
+        font-size: 12px;
+        }
+
+        .servicio_modal #seguridad h1{
+        font-size: 16px;
+        }
+    
+        .servicio_modal #seguridad{
+        font-size: 14px;
+        }
+
+        #img_servicio3{
+        border: 40px;
+        border-color: black;
+        
+        height: 150px;
+       
+        }
+
+        .servicio1{
+            width: 200px;
+            text-align: center;
+        }
+
+        #img_servicio3{
+            border: 40px;
+            border-color: black;
+            
+            height: 100px;
+        }
+
+        
+
+        /* FIN SERVICIO */
+
+        /* DESCARGAS */
+        
+        .fondo_carrito10{
+            text-align: center;
+        }
+
+        /* SECCION SERVICIO TECNICO */
+
+        .stecnico img{
+            height: 20px;
+                       
+        }
+
+        .stecnico p{
+            font-size: 12px ;
+            
+        }
+
+
+
+    /* PIE DE PAGINA */
+
+    #pie_principal{
+        font-size: 12px;
+        color: blanchedalmond;
+        }
+
+    #pie_pagina{
+   
+            font-size: 10px;
+            color: blanchedalmond;
+        }
+
+         /* PAGINA EN MANTENIMIENTO */
+
+    
+
+   .mantenimiento h1{
+    font-size:20px;
+    text-align: center;
+ }
+ .mantenimiento p{
+     font-size: 12px;
+     text-align: center;
+ }
+
+ .man_imagen{
+    text-align: center;
+ }
+ .man_imagen img{
+     width: 200px;
+     height: 200px;
+     
+
+ }
+
+/* FIN PAGINA EN MANTENIMIENTO */
+        
+
+    }
+
+    /* FIN TAMAÑOS 576 */
+
+    /* FIN DE TAMAÑO TEÑEFONO */
+
+       /* pie de pagina */
+
+#pie_principal{
+    background-color:rgb(3, 3, 3);
+   
+}
+
+#pie_principal p,a{
+    text-transform: none;
+   
+}
+
+#pie_principal1{
+    font-size: 10px;
+    color: blanchedalmond;
+}
+
+
+
+#pie_pagina{
+   
+    font-size: 14px;
+    color: blanchedalmond;
+}
+
+
+
+
+
+
+
+    
+
+
