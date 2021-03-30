@@ -14,7 +14,7 @@ include 'plantilla/cabecera.php'
 
 
 
-<!-- SECCION DE BANNER -->
+<!-------------------------------------------------- SECCION DE BANNER ------------------------------------------>
 
 <div class="row mt-3  ">
     <div class="col ">
@@ -28,13 +28,13 @@ include 'plantilla/cabecera.php'
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="imagenes/banner/1.1.jpg" class="d-block w-100 " alt="..." id="seccion_banner">
+                    <img src="imagenes/banner/iglesias.jpg" class="d-block w-100 " alt="..." id="seccion_banner">
                     <div class="carousel-caption d-none d-md-block">
                         <div class="jumbotron" id="banner_info">
-                            <h1 class="display-4">Mes de la Mujer</h1>
+                            <h1 class="display-4">Semana Santa</h1>
                             <p class="lead"></p>
                             <hr class="my-4">
-                            <p>Emprendedora, Madre, Amiga </p>
+                            <p>Camino a la Pascua del Señor </p>
                             <p class="lead">
                                 <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
                             </p>
@@ -194,8 +194,9 @@ include 'plantilla/cabecera.php'
                 <img src="imagenes/carrito1.jpg" class="card-img-top d-none d-sm-block" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">productos en venta</h5>
-                    <p class="card-text">Colocamos a su disposición una tienda donde encontrara diferentes productos informáticos,
-                        puede consultarnos por disponibilidad y le hacemos entrega de su compra,  ofreceremos
+                    <p class="card-text">Colocamos a su disposición una tienda donde encontrara diferentes productos
+                        informáticos,
+                        puede consultarnos por disponibilidad y le hacemos entrega de su compra, ofreceremos
                         asesorías para que pueda realizar una compra segura </p>
                 </div>
                 <div class="card-footer">
@@ -243,17 +244,25 @@ include 'plantilla/cabecera.php'
                 <h5 class="modal-title" id="exampleModalLabel">SERVICIOS</h5>
 
             </div>
-            <div class="modal-body d-inline ">
+            <div class="modal-body  ">
                 <div class="row ">
-                    <button type="button" class="btn btn-outline-primary ml-5"><a href="pag_mantenimiento.php">CONSULTORÍA Y
-                            ASESORÍAS</a></button>
-                    <button type="button" class="btn btn-outline-primary ml-5"><a href="st.php">SERVICIO
-                            TÉCNICO</a></button>
-                            <br>
-                    <div class="container-fluid">
+                    <div class="col-md-12  modal-inicio">
+                        <button type="button" class="btn btn-outline-primary  "><a
+                                href="pag_mantenimiento.php">CONSULTORÍA Y
+                                ASESORÍAS</a></button>
+                        <button type="button" class="btn btn-outline-primary   "><a href="st.php">SERVICIO
+                                TÉCNICO</a></button>
+                    </div>
                     <br>
-                        <p>Nota:</p>
-                        <p>Si desea información general dar clip fuera de este cuadro</p>
+                    <div class="container-fluid descripcion">
+                        <br>
+                        <h3>Nota:</h3>
+                        <p>"Si desea información general dar clip fuera de este cuadro"</p>
+                    </div>
+                    <div class="col-12 publicidad">
+                        <img src="imagenes/publicidad_inicio/semana_santa.jpg" alt="">
+                        <p>Feliz Seman Santa 2021</p>
+
                     </div>
 
 
