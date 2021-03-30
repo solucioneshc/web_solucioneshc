@@ -2,6 +2,8 @@
 include 'plantilla/cabecera.php'
 ?>
 
+<!------------------------------------------------------ CABECERA------------------------------------------- -->
+
 <div id="carouselst" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#carouselst" data-slide-to="0" class="active"></li>
@@ -29,56 +31,60 @@ include 'plantilla/cabecera.php'
     </a>
 </div>
 
-<!-- ESTRUCTURA SERVICIO -->
-<div class="row mt-3 d-none d-sm-none d-md-block" >
-    <div class="col-8 stecnico ">
-        <div class="card d-inline-block " style="width: 15rem;">
+<!------------------------------------------------------ FIN CABECERA------------------------------------------- -->
+
+<!--------------------------------------------------------- ESTRUCTURA SERVICIO ------------------------------->
+<div class="row mt-3  ">
+    <div class="col-8 stecnico d-none d-sm-block d-sm-none  ">
+        <div class="card d-inline-block " style="width: 17rem;">
 
             <img src="imagenes/iconos/tecnologia.svg" class="card-img-top mt-2" alt="...">
             <div class="card-body">
                 <p class="card-text">Outsorsing</p>
             </div>
         </div>
-        <div class="card d-inline-block" style="width: 15rem;">
+        <div class="card d-inline-block" style="width: 17rem;">
             <img src="imagenes/iconos/mesa.svg" class="card-img-top mt-2" alt="...">
             <div class="card-body">
                 <p class="card-text">Mesa de ayuda</p>
             </div>
         </div>
-        <div class="card d-inline-block" style="width: 15rem;">
+        <div class="card d-inline-block" style="width: 17rem;">
             <img src="imagenes/iconos/proyectos.svg" class="card-img-top mt-2" alt="...">
             <div class="card-body">
                 <p class="card-text">Proyecto TI</p>
             </div>
         </div>
-        <div class="card d-inline-block mt-3" style="width: 15rem;">
+        <div class="card d-inline-block mt-3" style="width: 17rem;">
             <img src="imagenes/iconos/suministros.svg" class="card-img-top mt-2" alt="...">
             <div class="card-body">
                 <p class="card-text">Suministros.</p>
             </div>
         </div>
-        <div class="card d-inline-block" style="width: 15rem;">
+        <div class="card d-inline-block" style="width: 17rem;">
             <img src="imagenes/iconos/mantenimiento.svg" class="card-img-top mt-2" alt="...">
             <div class="card-body">
                 <p class="card-text">Mantenimiento</p>
             </div>
         </div>
-        <div class="card d-inline-block" style="width: 15rem;">
+        <div class="card d-inline-block" style="width: 17rem;">
             <img src="imagenes/iconos/documentacion.svg" class="card-img-top mt-2" alt="...">
             <div class="card-body">
                 <p class="card-text">Normalización ISO</p>
             </div>
+
         </div>
     </div>
-    <!-- FORMULARIO DE SERVICIO -->
-    <!-- video -->
-    <div class="col-4">
+
+    <!------------------------------------------ video------------------------------------ -->
+    <div class="col-4 mt-3 stecnico d-none d-sm-block d-sm-none  video">
         <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item  " src="https://www.youtube.com/embed/buHW8o-9FGs" frameborder="0"
-                allowfullscreen></iframe>
+            <iframe class="embed-responsive-item  " src="https://www.youtube.com/embed/buHW8o-9FGs" width="1000"
+                height="1000" frameborder="0" allowfullscreen></iframe>
         </div>
+
     </div>
-    <!-- fin video -->
+    <!---------------------------------------- FIN VIDEO---------------------------------- -->
 </div>
 
 <div class="row mt-3" id="stdescrip">
@@ -87,91 +93,71 @@ include 'plantilla/cabecera.php'
         <img src="imagenes/iconos/soporte-tecnico.svg" class="card-img mt-2" alt="...">
         <h3 class="d-inline-block">SOPORTE TÉCNICO</h3>
 
-        <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero porro iusto illum, nisi deleniti
-            perspiciatis quae nam eligendi aut sit numquam ullam nostrum optio distinctio quas facere neque debitis hic?
+        <P>reparación de inconveniente con su equipos informaticos, mantenimiento, revisión
         </P>
     </div>
     <div class="col-md-4 col-sd-3" id="stdescriptodo">
         <img src="imagenes/iconos/redes.svg" class="card-img-top mt-2" alt="...">
         <h3 class="d-inline-block">REDES Y WIFI</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ea at, accusantium quasi perferendis debitis
-            quas nam esse, eius quam facilis odio atque veritatis ad corrupti sequi animi maxime consequatur!</p>
+        <p>instalación, configuración, mantenimiento de redes alambricas e inalambricas </p>
     </div>
     <div class="col-md-4 col-sd-3" id="stdescriptodo">
         <img src="imagenes/iconos/servidor.svg" class="card-img-top mt-2" alt="...">
         <h3 class="d-inline-block">INFRAESTRUCTURA TI</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat alias, inventore, eum rerum sit veniam
-            provident praesentium cum qui amet veritatis unde. Ducimus placeat atque impedit? Quod excepturi nulla
-            tempore?</p>
+        <p>chequeo de los componentes fisicos del servicio TI. todo los componentes tecnologicos involucrados en su
+            organizacion </p>
     </div>
     <div class="col-md-4 col-sd-3" id="stdescriptodo">
         <img src="imagenes/iconos/informacion.svg" class="card-img-top mt-2" alt="...">
-        <h3 class="d-inline-block">RECUPERACION</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nihil itaque officiis voluptas adipisci
-            ipsum minus beatae non voluptates molestias aspernatur modi rerum odio hic, eos voluptatibus labore,
-            excepturi alias.</p>
+        <h3 class="d-inline-block">RECUPERACIÓN</h3>
+        <p>le ayudamos a recuperar la data eliminada de sus discos de almacenamientos </p>
     </div>
     <div class="col-md-4 col-sd-3" id="stdescriptodo">
         <img src="imagenes/iconos/instalacion.svg" class="card-img-top mt-2" alt="...">
         <h3 class="d-inline-block">INSTALACION DE SOFTWARE</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, culpa. Architecto, necessitatibus error
-            dignissimos perferendis ullam tenetur vero eveniet voluptas sed quo rem veritatis maxime molestiae aliquam
-            laudantium totam! Aliquid.</p>
+        <p>instalacion de programas, antivirus necesarios para que su pc pueda funcionar correctamente </p>
     </div>
     <div class="col-md-4 col-sd-3" id="stdescriptodo">
         <img src="imagenes/iconos/dto.svg" class="card-img-top mt-2" alt="...">
-        <h3 class="d-inline-block">ELIMINACION DE VIRUS</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur cum maiores in tempore, quod aliquid
-            distinctio dolor, sed eius, ducimus est architecto similique ea dignissimos consequatur incidunt laboriosam
-            ad. Doloremque.</p>
+        <h3 class="d-inline-block">ELIMINACIÓN DE VIRUS</h3>
+        <p>cheqamos su equipos contravirus, malware que esten afectando con el funcionamiento de su pc </p>
     </div>
     <div class="col-md-4 col-sd-3" id="stdescriptodo">
         <img src="imagenes/iconos/mto.svg" class="card-img-top mt-2" alt="...">
         <h3 class="d-inline-block">MANTENIMIENTO </h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur cum maiores in tempore, quod aliquid
-            distinctio dolor, sed eius, ducimus est architecto similique ea dignissimos consequatur incidunt laboriosam
-            ad. Doloremque.</p>
+        <p>Mantenimiento fisico a las computadoras, impresoras, scaner, mantenemos sus equipos para darle una duracion
+            mas larga </p>
     </div>
     <div class="col-md-4 col-sd-3" id="stdescriptodo">
         <img src="imagenes/iconos/laptop.svg" class="card-img-top mt-2" alt="...">
         <h3 class="d-inline-block">RECUPERACION DE LAPTOP</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur cum maiores in tempore, quod aliquid
-            distinctio dolor, sed eius, ducimus est architecto similique ea dignissimos consequatur incidunt laboriosam
-            ad. Doloremque.</p>
+        <p>chequeo de laptops, pantallas, se verifican los componentes electronicos</p>
     </div>
     <div class="col-md-4 col-sd-3" id="stdescriptodo">
         <img src="imagenes/iconos/impresora.svg" class="card-img-top mt-2" alt="...">
         <h3 class="d-inline-block">IMPRESORA </h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur cum maiores in tempore, quod aliquid
-            distinctio dolor, sed eius, ducimus est architecto similique ea dignissimos consequatur incidunt laboriosam
-            ad. Doloremque.</p>
+        <p>revision, chequeo y mantenimiento </p>
     </div>
     <div class="col-md-4 col-sd-3" id="stdescriptodo">
         <img src="..." class="card-img-top mt-2" alt="...">
-        <h3 class="d-inline-block">REDES DE DATOS </h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur cum maiores in tempore, quod aliquid
-            distinctio dolor, sed eius, ducimus est architecto similique ea dignissimos consequatur incidunt laboriosam
-            ad. Doloremque.</p>
+        <h3 class="d-inline-block">servidores </h3>
+        <p>instalacion, configuracion de servidores. instalacion de servidores de correos, active directory. </p>
     </div>
     <div class="col-md-4 col-sd-3" id="stdescriptodo">
         <img src="imagenes/iconos/web.svg" class="card-img-top mt-2 " alt="...">
-        <h3 class="d-inline-block">WEB Y EMAILS</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur cum maiores in tempore, quod aliquid
-            distinctio dolor, sed eius, ducimus est architecto similique ea dignissimos consequatur incidunt laboriosam
-            ad. Doloremque.</p>
+        <h3 class="d-inline-block">paginas web y correos</h3>
+        <p>configuracion de hosting, dominios, correos coorporativos, diseñso y desarrollos web </p>
     </div>
     <div class="col-md-4 col-sd-3" id="stdescriptodo">
         <img src="imagenes/iconos/alquilar.svg" class="card-img-top mt-2" alt="...">
         <h3 class="d-inline-block">ALQUILERES DE EQUIPOS</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur cum maiores in tempore, quod aliquid
-            distinctio dolor, sed eius, ducimus est architecto similique ea dignissimos consequatur incidunt laboriosam
-            ad. Doloremque.</p>
+        <p>neecsita equipos informaticos por un tiempo, le prestamos el servicio de alquileres de equipos </p>
     </div>
 </div>
 
 <!-- FIN ESTRUCTURA SERVICIO -->
 
-<!-- BOTONES -->
+<!------------------------------------------------- BOTONES ----------------------------------------->
 
 <div class="row mt-3  col-sm-4 col-md-12 btn_form ">
     <div class=" ">
@@ -186,11 +172,11 @@ include 'plantilla/cabecera.php'
 
 </div>
 
-<!-- FUNCION CON JQUERY -->
+<!-- ------------------------------------------FUNCION CON JQUERY-------------------------------- -->
 
 <script src="../js/codigo.js"></script>
 
-<!-- PIE DE PAGINA  -->
+<!---------------------------------------------- PIE DE PAGINA ----------------------------------- -->
 <?php
 include 'plantilla/pie.php'
 ?>
