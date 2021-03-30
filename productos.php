@@ -13,7 +13,7 @@ include 'plantilla/cabecera.php';
 
 
 <div class="row mt-3">
-    <div class="col-2 " id="fondo_carrito">
+    <div class="col-sm-12 col-md-4 col-xl-2 " id="fondo_carrito">
           <a href="" class="categorias mt-3" name="todo">todo</a>
           <a href="" class="categorias" name="computadoras">computadora</a>
           <a href="" class="categorias" name="electrodomestico">electrodo</a>

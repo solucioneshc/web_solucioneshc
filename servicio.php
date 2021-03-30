@@ -55,7 +55,7 @@ include 'plantilla/cabecera.php'
 </div>
 
 <div class="row mt-3 servicio_modal">
-    <div class="col-md-2 col-sm-6 col-xs-6 ">
+    <div class="col-md-2 col-sm-6 col-xs-6 servicio1">
         <img class="img-fluid btn d-block w-100" data-toggle="modal" data-target="#consultoria"
             src="imagenes/consultoria_servicio.jpg" alt="" id="img_servicio3">
     </div>
@@ -96,7 +96,7 @@ include 'plantilla/cabecera.php'
             </div>
         </div>
     </div>
-    <div class="col-md-2 col-sm-6 col-xs-6">
+    <div class="col-md-2 col-sm-6 col-xs-6 servicio1">
         <img class="img-fluid btn d-block w-100" data-toggle="modal" data-target="#infraestructura"
             src="imagenes/tia.jpg" alt="" id="img_servicio3">
     </div>
@@ -141,7 +141,7 @@ include 'plantilla/cabecera.php'
         </div>
     </div>
 
-    <div class="col-md-2 col-sm-6 col-xs-6">
+    <div class="col-md-2 col-sm-6 col-xs-6 servicio1">
         <img class="img-fluid btn d-block w-100" data-toggle="modal" data-target="#seguridad"
             src="imagenes/seguridad1.jpg" alt="" id="img_servicio3">
     </div>
@@ -175,7 +175,7 @@ include 'plantilla/cabecera.php'
             </div>
         </div>
     </div>
-    <div class="col-md-2 col-sm-6 col-xs-6">
+    <div class="col-md-2 col-sm-6 col-xs-6 servicio1">
         <img class="img-fluid btn d-block w-100" data-toggle="modal" data-target="#desarrollo"
             src="imagenes/desarrollo_web1.jpg" alt="" id="img_servicio3">
     </div>
@@ -201,7 +201,7 @@ include 'plantilla/cabecera.php'
     </div>
 
 
-    <div class="col-md-2 col-sm-6 col-xs-6">
+    <div class="col-md-2 col-sm-6 col-xs-6 servicio1">
         <img class="img-fluid btn d-block w-100" data-toggle="modal" data-target="#tecnico"
             src="imagenes/servicio_tecnico1.jpg" alt="" id="img_servicio3">
     </div>
@@ -235,7 +235,7 @@ include 'plantilla/cabecera.php'
             </div>
         </div>
     </div>
-    <div class="col-md-2 col-sm-6 col-xs-6">
+    <div class="col-md-2 col-sm-6 col-xs-6 servicio1">
         <img class="img-fluid btn d-block w-100" data-toggle="modal" data-target="#helpdesk"
             src="imagenes/servicio_remoto1.jpg" alt="" id="img_servicio3">
     </div>
