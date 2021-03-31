@@ -15,7 +15,7 @@ include '../plantilla/cabecera_2.php';
             <div class="input-group mb-2 mr-sm-2">
                 
 
-                <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Contraseña "
+                <input type="password" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Contraseña "
                     type="password" name="pass">
             </div>
 
