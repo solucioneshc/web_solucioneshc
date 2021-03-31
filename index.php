@@ -84,10 +84,10 @@ include 'plantilla/cabecera.php'
 
 </div>
 
-<!-- FIN SECCIÓN DE BANNER -->
+<!------------------------------------------------ FIN SECCIÓN DE BANNER --------------------------------->
 
 
-<!-- SECCIÓN DE BIENVENIDOS -->
+<!--------------------------------------------- SECCIÓN DE BIENVENIDOS -------------------------------->
 
 <div class="row mt-3" id="fondo1">
     <div class="col-md-6 col-sm-12 col-xs-12">
@@ -146,11 +146,11 @@ include 'plantilla/cabecera.php'
     </div>
 </div>
 
-<!-- FIN DE SECCION BIENVENIDOS -->
+<!-------------------------------------------- FIN DE SECCION BIENVENIDOS ----------------------------->
 
 
 
-<!-- INICIO DESCRIPCION DE SERVICIO -->
+<!-------------------------------------------- INICIO DESCRIPCION DE SERVICIO ------------------------->
 <div class="row mt-3">
     <div class="col-md-12 col-sm-12 col-xs-12">
         <div class="card-group contenidocard">
@@ -233,7 +233,7 @@ include 'plantilla/cabecera.php'
 
     </div>
 </div>
-<!-- FIN DE SECCION SERVICIO -->
+<!----------------------------------------------------------------- FIN DE SECCION SERVICIO ------------------>
 
 <!-- INICIO MODAL INICIO -->
 <div class="modal fade modalinicio" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -241,7 +241,7 @@ include 'plantilla/cabecera.php'
     <div class="modal-dialog ">
         <div class="modal-content  ">
             <div class="modal-header " id="cajatex">
-                <h5 class="modal-title" id="exampleModalLabel">SERVICIOS</h5>
+                <h5 class="modal-title" id="exampleModalLabel">SERVICIO A SU ALCANCE</h5>
 
             </div>
             <div class="modal-body  ">
@@ -261,7 +261,7 @@ include 'plantilla/cabecera.php'
                     </div>
                     <div class="col-12 publicidad">
                         <img src="imagenes/publicidad_inicio/semana_santa.jpg" alt="">
-                        <p>Feliz Seman Santa 2021</p>
+                        <p>Feliz Semana Santa 2021</p>
 
                     </div>
 
@@ -277,17 +277,17 @@ include 'plantilla/cabecera.php'
 </div>
 
 
-<!-- FIN MODAL INICIO -->
+<!------------------------------------------- FIN MODAL INICIO ------------------------------------>
 
-<!-- SECCION DE SCRIP -->
+<!--------------------------------------- SECCION DE SCRIP -------------------------------->
 <script>
 $(document).ready(function() {
     $('#exampleModal').modal('toggle')
 });
 </script>
-<!-- FIN SECCION DE SCRIP -->
+<!------------------------------------ FIN SECCION DE SCRIP ------------------------------------>
 
-<!-- PIE DE PAGINA  -->
+<!-- -------------------------------------PIE DE PAGINA ----------------------------------------- -->
 <?php
 include 'plantilla/pie.php'
 ?>
