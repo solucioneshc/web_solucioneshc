@@ -59,7 +59,7 @@ include 'plantilla/cabecera.php'
         <img class="img-fluid btn d-block w-100" data-toggle="modal" data-target="#consultoria"
             src="imagenes/consultoria_servicio.jpg" alt="" id="img_servicio3">
     </div>
-    <!-- Modal -->
+    <!------------------------------------------------ Modal ------------------------------------------------>
     <div class="modal fade" id="consultoria" tabindex="-1" role="dialog" aria-labelledby="consultoria"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -100,7 +100,7 @@ include 'plantilla/cabecera.php'
         <img class="img-fluid btn d-block w-100" data-toggle="modal" data-target="#infraestructura"
             src="imagenes/tia.jpg" alt="" id="img_servicio3">
     </div>
-    <!-- Modal -->
+    <!-------------------------------------------------------- FIN Modal ------------------------------------------>
     <div class="modal fade" id="infraestructura" tabindex="-1" role="dialog" aria-labelledby="infraestructura"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
