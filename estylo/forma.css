@@ -212,10 +212,16 @@ text-decoration: overline;
     /**************************************************** PRUEBA TARJETA ***********************/
 
    .tarjeta{
-       width: 1100px;
-       margin: 50px auto;
-       display: flex;
-       justify-content: center;
+    width: 1100px;
+	margin: 50px auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
    }
 
    .tarjeta-uno{
@@ -225,25 +231,40 @@ text-decoration: overline;
    }
 
    .tarjeta-primera{
-       width: 300px;
-       height: 350px;
-       background: orange;
-       position: relative;
-       transform-style:preserve-3d; 
-       transition: .7s ease;
+    width: 300px;
+	height: 350px;
+	background: #F29720;
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transition: .7s ease;
+	transition: .7s ease;
+	-webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+	box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
        
    }
    
    .atras{
-    transform: rotateY(180deg);
-    padding: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #fff;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
+    -webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+
+	padding: 15px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+
+	text-align: center;
+	color: #fff;
+	font-family: "open sans";
    }
 
    .adelante, .atras{
@@ -256,10 +277,37 @@ text-decoration: overline;
        backface-visibility: hidden;
    }
 
-   .tarjeta:hover .tarjeta-primera{
+   .tarjeta-uno:hover .tarjeta-primera{
     transform: rotateY(180deg);
     
+    
    }
+
+   .adelante{
+	width: 100%;
+}
+
+.card1{
+	background-image: url(../imagenes/consultoria/consultoria.jpg);
+	background-size: cover;
+}
+
+.card2{
+	background-image: url(../imagenes/consultoria/digital.jpg);
+	background-size: cover;
+}
+
+.card3{
+	background-image: url(../imagenes/consultoria/marqueting.png);
+	background-size: cover;
+}
+
+.card4{
+	background-image: url(../imagenes/consultoria/transformacion.jpg);
+	background-size: cover;
+}
+
+
 /************************************************************** FIN CONSULTORIA ********************************************/
 
 
