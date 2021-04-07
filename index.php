@@ -28,13 +28,13 @@ include 'plantilla/cabecera.php'
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="imagenes/banner/iglesias.jpg" class="d-block w-100 " alt="..." id="seccion_banner">
+                    <img src="imagenes/banner/ingnovacion.jpeg" class="d-block w-100 " alt="..." id="seccion_banner">
                     <div class="carousel-caption d-none d-md-block">
                         <div class="jumbotron" id="banner_info">
-                            <h1 class="display-4">Semana Santa</h1>
+                            <h1 class="display-4">Innovación</h1>
                             <p class="lead"></p>
                             <hr class="my-4">
-                            <p>Camino a la Pascua del Señor </p>
+                            <p>El camino a la tecnología </p>
                             <p class="lead">
                                 <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
                             </p>
@@ -248,7 +248,7 @@ include 'plantilla/cabecera.php'
                 <div class="row ">
                     <div class="col-md-12  modal-inicio">
                         <button type="button" class="btn btn-outline-primary  "><a
-                                href="pag_mantenimiento.php">CONSULTORÍA Y
+                                href="consultoria.php">CONSULTORÍA Y
                                 ASESORÍAS</a></button>
                         <button type="button" class="btn btn-outline-primary   "><a href="st.php">SERVICIO
                                 TÉCNICO</a></button>
@@ -260,8 +260,8 @@ include 'plantilla/cabecera.php'
                         <p>"Si desea información general dar clip fuera de este cuadro"</p>
                     </div>
                     <div class="col-12 publicidad">
-                        <img src="imagenes/publicidad_inicio/semana_santa.jpg" alt="">
-                        <p>Feliz Semana Santa 2021</p>
+                        <img src="imagenes/publicidad_inicio/serviciotecnico.jpeg" alt="">
+                        <p></p>
 
                     </div>
 

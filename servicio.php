@@ -89,7 +89,9 @@ include 'plantilla/cabecera.php'
                         ISO 27001, ISO 37001, ISO 45001.
                     </p>
                 </div>
+                <a class="btn btn-primary btn-lg" href="consultoria.php" role="button">todos los servicios</a>
                 <div class="modal-footer">
+                    
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 
                 </div>

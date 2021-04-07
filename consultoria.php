@@ -4,7 +4,7 @@ include 'plantilla/cabecera.php'
 
 <div class="row cabconsul ">
     <div class="col-8 textconsul">
-        <h1>consultoria organizacional</h1>
+        <h1>consultoria </h1>
         <p>en crecimiento con el cliente </p>
     </div>
     <div class="col-4 imgconsul">
@@ -14,7 +14,7 @@ include 'plantilla/cabecera.php'
 
 
 
-<div class="tarjeta d-sm-flex d-md-flex d-lg-flex d-xl-flex d-flex ">
+<div class="tarjeta ">
     <div class="tarjeta-uno ">
         <div class="tarjeta-primera">
             <div class="adelante card1">
@@ -25,7 +25,7 @@ include 'plantilla/cabecera.php'
             </div>
         </div>
     </div>
-    <div class="tarjeta-uno ">
+    <div class="tarjeta-uno  ">
         <div class="tarjeta-primera">
             <div class="adelante card2">
 
@@ -38,7 +38,7 @@ include 'plantilla/cabecera.php'
 
     </div>
 
-    <div class="tarjeta-uno ">
+    <div class="tarjeta-uno  ">
         <div class="tarjeta-primera">
             <div class="adelante card3">
 
@@ -49,7 +49,7 @@ include 'plantilla/cabecera.php'
         </div>
 
     </div>
-    <div class="tarjeta-uno  ">
+    <div class="tarjeta-uno   ">
         <div class="tarjeta-primera">
             <div class="adelante card4">
 
