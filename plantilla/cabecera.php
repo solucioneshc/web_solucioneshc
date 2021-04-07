@@ -12,7 +12,7 @@
     <link rel="shortcut icon" type="image/png" href="imagenes/logo1.png"/>
     
 
-    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
     <title>SOLUCIONES TECNOLÓGICAS</title>
 </head>
 
