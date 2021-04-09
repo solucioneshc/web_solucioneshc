@@ -42,18 +42,36 @@ include '../plantilla/bloque_admin.php'
                         cols="70" class="form-control" required placeholder="informacion"  /> -->
                     <textarea name="link" id="" cols="70" rows="10" class="form-control"></textarea>
                 </div>
-                <form name="MiForm" id="MiForm" method="post" action="cargar.php" enctype="multipart/form-data">
-                    <h4 class="text-center">Seleccione imagen a cargar</h4>
-                    <div class="form-group">
+                <div class="form-group">
+                    <label style="font-size: 14pt; "><b>tipo de archivo</b></label>
+                    <input type="text" name="id_tipo_descargas" class="form-control" required
+                        placeholder="Ingresa tipo de descarga" />
+                </div>
+
+                <!-- <div class="form-group">
                         <label class="col-sm-2 control-label">Archivos</label>
                         <div class="col-sm-8">
                             <input type="file" class="form-control" id="image" name="img" multiple>
                         </div>
                         <br>
-                        <button name="submit" class="btn btn-primary">Cargar Imagen</button>
-                    </div>
+                        <button name="submit"  class="btn btn-primary">Cargar Imagen</button>
+                    </div> -->
+
+                <form enctype='multipart/form-data' action='' method='POST'>
+                    <input type="hidden" name="MAX_FILE_SIZE" value="30000" />
+                    <input name='img' type='file'><br>
+                    
+
                 </form>
-               
+
+                <button name="submit" class="btn btn-primary" value="enviar fichero">Cargar Imagen</button>
+
+
+
+                <!-- <button name="submit" class="btn btn-primary">registrar</button> -->
+
+
+
             </fieldset>
         </form>
 

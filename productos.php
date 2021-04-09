@@ -11,11 +11,11 @@ include 'plantilla/cabecera.php';
 
 
 <div class="row mt-3">
-    <div class="col-sm-12 col-md-4 col-xl-2 botones" >
-        <button class="menu" id="inicio"><a href="descarga.php">Todos</button>
-        <button class="menu" id=""><a href="">Comput</button>
-        <button class="menu" id=""><a href="">Software</button>
-        <button class="menu" id=""><a href="">Articulos</button>
+    <div class="col-sm-12 col-md-4 col-xl-2 botones">
+        <a href="productos.php" class="menu btn btn-success" id="inicio">todo</a>
+        <a href="productos_1.php" class="menu btn btn-success" id="">computadoras</a>
+        <a href="productos_2.php" class="menu btn btn-success" id=""> licencias</a>
+        <a href="productos_3.php" class="menu btn btn-success" id="">software</a>
     </div>
     <div class="col-10">
         <?php if ($mensaje!=""){ ?>

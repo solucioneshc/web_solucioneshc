@@ -69,7 +69,7 @@
         </div>
         <form class="form-inline" action="validar.php" method="POST">
             <label class="sr-only" for="inlineFormInputName2" >correo</label>
-            <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" name="mail" placeholder="correo">
+            <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" name="mail" placeholder="correo"  autocomplete="off">
 
             <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
             <div class="input-group mb-2 mr-sm-2">

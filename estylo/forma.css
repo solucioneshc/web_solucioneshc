@@ -458,62 +458,51 @@ background: linear-gradient(135deg, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 
 
 
 
-/* .botones{
-    background-color: rgb(68, 67, 67);
-}
+ /**************************************MENU ADMINISTRATIVO ************************/
 
 
-
-
-
-.botones .menu li a{
-    color: rgb(73, 72, 72);
-    display: block;
-    padding: 15px 20px;
-
-}
-
- .botones .menu li ul {
-    display: none;
-}  
-
-.botones .menu li ul li a{
-    background: #e9dada;
-    color:#e9e9e9;
-
-
-}
-
-.botones .menu > a{
-    background: #1a95d5;
-    color: seashell;
-
+ .menu_admin li{
+    list-style-type:none;
+    position:relative;
+    width:150px;
     }
 
-   .botones .menu{
-      display: block;
-      width:100px ;
-      padding: 15px 0px;
-      margin-bottom: 20px;
-      background: skyblue;
+.menu_admin li a{
+        text-decoration:none;
+        display:inline-block;
+        padding:10px 10px;
+        width:150px;
+        height:30px;
+        border:1px solid #000;
+        color:rgb(252, 252, 253);
+        background-color:#000;
+        font-size: 12px;
+        }
 
-      text-align: center;
-      text-decoration: none;
-      color: #fff;
-    }
+.menu_admin li a:hover{
+            color:rgb(21, 10, 122);
+            background-color:rgb(168, 15, 15);
+                        
+            }
 
-    
+li ul{
+                display:none;
+                position:absolute;
+                top:0px;
+                left:150px;
+            }
 
-    .button_activado{
-        background: blue;
-    } */
+.menu_admin li:hover ul{display:block;}
 
+ 
+ /************************************** FIN MENU ADMINISTRATIVO ************************/
 
+/* ************************************MENU DESCARGAS - PRODUCTOS**************** */
 
-
-.botones button{
+.botones a{
     width:200px ;
     display: block;
+    margin-top: 2px;
 }
 
 .botones .menu{
@@ -531,7 +520,7 @@ background: linear-gradient(135deg, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 
     background: blue;
 }
 
-
+/* ************************************FIN MENU DESCARGAS - PRODUCTOS**************** */
     /**************************************************************PAGINA EN MANTENIMIENTO ***************************************************************/
 
     

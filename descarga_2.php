@@ -10,15 +10,16 @@ include 'plantilla/cabecera.php';
 
 <div class="row mt-3 fondo_carrito10">
     <div class="col-sm-12 col-md-4 col-xl-2 botones ">
-        <!-- <a href="" class="categorias mt-3" name="todo">todo</a>
-        <a href="" class="categorias" name="computadoras">LIBROS</a>
-        <a href="" class="categorias" name="electrodomestico">AUDIO LIBROS</a>
-        <a href="" class="categorias" name="marron">PROGRAMAS</a> -->
 
-        <button class="menu" id="inicio"><a href="descarga.php">Todos</a></button>
+        <a href="descarga.php" class="menu btn btn-success" id="">todo</a>
+        <a href="descarga_1.php" class="menu btn btn-success" id="">libros</a>
+        <a href="descarga_2.php" class="menu btn btn-success" id="inicio"> audio libros</a>
+        <a href="descarga_3.php" class="menu btn btn-success" id="">programas</a>
+
+        <!-- <button class="menu" id="inicio"><a href="descarga.php">Todos</a></button>
         <button class="menu" id=""><a href="descarga_1.php">Libros</a></button>
-        <button class="menu" id="">Audio Libros</button>
-        
+        <button class="menu" id="">Audio Libros</button> -->
+
 
     </div>
     <div class="col-10">
@@ -31,7 +32,7 @@ include 'plantilla/cabecera.php';
                 <!-- consultar los productos que estan en base datos -->
                 <?php
 
-                $sentencia=$pdo->prepare('SELECT * FROM descargas');
+                $sentencia=$pdo->prepare('SELECT * FROM descargas where id_tipo_descargas = 2');
                 $sentencia->execute();
                 $listaProductos=$sentencia->fetchAll(PDO::FETCH_ASSOC);
                 // print_r($listaProductos);
