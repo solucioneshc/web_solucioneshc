@@ -9,7 +9,7 @@
 
 
 .banner1 h5{
-   text-transform: uppercase; 
+   text-transform: uppercase;
 }
 
 .banner1 p{
@@ -17,18 +17,18 @@
 }
 
 .contenidocard h5{
-    text-transform: uppercase; 
+    text-transform: uppercase;
     font-weight: 900;
-    
+
 }
 
 .contenidocard p{
-    text-transform: none; 
+    text-transform: none;
     text-indent: 30px;
     font-size: 14px;
     text-align: justify;
     line-height: 20px;
-    
+
 }
 
 
@@ -52,7 +52,7 @@ text-decoration: overline;
 #banner_info  p{
     font-size: 30px;
     color: #2D3E50;
-    
+
     }
 
 
@@ -70,7 +70,7 @@ text-decoration: overline;
 
 #fondo1 p{
     font-size: 17px;
-  
+
     text-align: justify;
     text-indent: 30px;
     line-height: 30%;
@@ -96,7 +96,7 @@ text-decoration: overline;
     background-position: 50%;
     border-radius: 20px 20px 20px 20px;
     background-size: 100% auto;
-    
+
     height: 180px;
 }
 
@@ -126,8 +126,8 @@ text-decoration: overline;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(1, 46, 49);
     text-transform: uppercase;
-    
-   
+
+
 }
 
 #cajatex{
@@ -148,15 +148,15 @@ text-decoration: overline;
 }
 
 .modalinicio .publicidad  {
-    
-   
+
+
     text-align: center;
 }
 
 .modalinicio .publicidad img {
     width: 300px;
     height: 300px;
-    
+
 }
 
 .modalinicio .publicidad p {
@@ -164,10 +164,10 @@ text-decoration: overline;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 3px;
     color:rgb(13, 61, 133)
-    
 
-    
-    
+
+
+
 }
 
 
@@ -247,9 +247,9 @@ text-decoration: overline;
 	transition: .7s ease;
 	-webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
 	box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
-       
+
    }
-   
+
    .atras{
     -webkit-transform: rotateY(180deg);
 	transform: rotateY(180deg);
@@ -285,8 +285,8 @@ text-decoration: overline;
 
    .tarjeta-uno:hover .tarjeta-primera{
     transform: rotateY(180deg);
-    
-    
+
+
    }
 
    .adelante{
@@ -333,8 +333,8 @@ margin: 10px 20px;
    line-height: 22px;
    font-size: 16px;
    text-indent: 20px;
-   
-   
+
+
 
 
 }
@@ -357,7 +357,7 @@ margin: 10px 20px;
     font-size: 25px;
     letter-spacing: 3px;
     text-transform: lowercase;
-    
+
     font-family: verdana, arial, helvetica;
 }
 
@@ -373,7 +373,7 @@ margin: 10px 20px;
 
 .stecnico img{
     height: 50px;
-    
+
 }
 
 .video{
@@ -394,12 +394,12 @@ margin: 10px 20px;
 
 #pie_principal{
     background-color:rgb(3, 3, 3);
-   
+
 }
 
 #pie_principal p,a{
     text-transform: none;
-   
+
 }
 
 #pie_principal1{
@@ -410,7 +410,7 @@ margin: 10px 20px;
 
 
 #pie_pagina{
-   
+
     font-size: 16px;
     color: blanchedalmond;
 }
@@ -458,7 +458,9 @@ background: linear-gradient(135deg, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 
 
 
 
- /**************************************MENU ADMINISTRATIVO ************************/
+ /**************************************DESCARGAS************************/
+
+ /* MENU */
 
 
  .menu_admin li{
@@ -482,7 +484,7 @@ background: linear-gradient(135deg, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 
 .menu_admin li a:hover{
             color:rgb(21, 10, 122);
             background-color:rgb(168, 15, 15);
-                        
+
             }
 
 li ul{
@@ -493,9 +495,36 @@ li ul{
             }
 
 .menu_admin li:hover ul{display:block;}
+/* FIN MENU */
 
- 
- /************************************** FIN MENU ADMINISTRATIVO ************************/
+
+/* cuerpo */
+.grid_descargas{
+    width: 250px;
+    
+
+
+}
+
+.grid_descargas span{
+    font-size: 30px;
+}
+
+.grid_descargas h5{
+    font-size: 15px;
+}
+
+.grid_descargas a{
+    font-size: 20px;
+    
+    
+}
+
+
+/* cuerpo */
+
+
+ /************************************** DESCARGAS ************************/
 
 /* ************************************MENU DESCARGAS - PRODUCTOS**************** */
 
@@ -508,9 +537,9 @@ li ul{
 .botones .menu{
     text-decoration: none;
     border: none;
-    
-    
-    
+
+
+
     display: inline-block;
     font-size: 20px;
 
@@ -523,7 +552,7 @@ li ul{
 /* ************************************FIN MENU DESCARGAS - PRODUCTOS**************** */
     /**************************************************************PAGINA EN MANTENIMIENTO ***************************************************************/
 
-    
+
 
    .mantenimiento h1{
        font-size:40px;
@@ -540,11 +569,13 @@ li ul{
     .man_imagen img{
         width: 400px;
         height: 400px;
-        
+
 
     }
 
  /***************************************************************FIN PAGINA EN MANTENIMIENTO***************************************************************/
+
+
 
     /***************************************************************MANEJOS DE LOS TAMAÑOS ***************************************************************/
 
@@ -566,7 +597,7 @@ li ul{
     }
 
 /*********************************************************************FIN MODAL INICIO ***************************************************************/
-     
+
 /*********************************************************CONSULTORIA *************************************/
 .cabconsul .textconsul h1{
     font-family: Arial, Helvetica, sans-serif;
@@ -610,12 +641,12 @@ li ul{
 /***************************************************************PAGINA DE SERVICIO ***************************************************************/
 #fondo1 h1{
     font-size: 30px;
-    
+
 }
 
 #fondo1 p{
  font-size: 15px;
- 
+
 }
 
  /*************************************************************** MODAL INICIO ***************************************************************/
@@ -626,11 +657,11 @@ li ul{
 }
 
  /***************************************************************FIN MODAL INICIO ***************************************************************/
-/*************************************************************** FIN PAGINA DE SERVICIO ***************************************************************/  
+/*************************************************************** FIN PAGINA DE SERVICIO ***************************************************************/
 
 /*************************************************************** PAGINA EN MANTENIMIENTO ***************************************************************/
 
-    
+
 
    .mantenimiento h1{
     font-size:30px;
@@ -647,7 +678,7 @@ li ul{
  .man_imagen img{
      width: 300px;
      height: 300px;
-     
+
 
  }
 
@@ -656,7 +687,7 @@ li ul{
  #img_servicio3{
     border: 40px;
     border-color: black;
-    
+
     height: 150px;
 }
  .servicio1{
@@ -668,12 +699,12 @@ li ul{
  /*************************************************************** PAGINA DE SERVICIO ***************************************************************/
 #fondo1 h1{
     font-size: 20px;
-    
+
 }
 
 #fondo1 p{
  font-size: 12px;
- 
+
 }
 
 
@@ -686,22 +717,22 @@ li ul{
 
 .stecnico img{
     height: 20px;
-               
+
 }
 
 .stecnico p{
     font-size: 12px ;
-    
+
 }
 
 #stdescrip h3{
     font-size: 16px ;
-    
+
 }
 
 #stdescrip p{
     font-size: 12px ;
-    
+
 }
 
 #buton1, #buton2, #buton3{
@@ -736,7 +767,7 @@ li ul{
 	-webkit-justify-content: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	
+
 
 
    }
@@ -758,13 +789,13 @@ li ul{
   transition: .7s ease;
   -webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
   box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
-     
+
  }
 /********************************************************* FIN TARJETA CONSULTORIA *************************************/
 
 }
 /*************************************************************** FIN SECCION SERVICIO TECNICO ***************************************************************/
-    
+
 
 /*************************************************************** FIN TAMAÑOS 998 EN ADELANTE ***************************************************************/
 
@@ -783,9 +814,9 @@ li ul{
            font-size: 12px;
        }
 
-       textarea  { 
+       textarea  {
         height: 10em;
-        width: 25em; 
+        width: 25em;
        }
 
        .servicio_modal .modal h1 {
@@ -808,16 +839,16 @@ li ul{
 
        #fondo1 h1{
            font-size: 20px;
-           
+
        }
 
        #fondo1 p{
         font-size: 12px;
-        
+
     }
 
-       
-       
+
+
        .servicio_modal #consultoria h5{
            font-size: 14px;
 
@@ -843,7 +874,7 @@ li ul{
         .servicio_modal #seguridad h1{
         font-size: 16px;
         }
-    
+
         .servicio_modal #seguridad{
         font-size: 14px;
         }
@@ -851,9 +882,9 @@ li ul{
         #img_servicio3{
         border: 40px;
         border-color: black;
-        
+
         height: 150px;
-       
+
         }
 
         .servicio1{
@@ -864,23 +895,23 @@ li ul{
         #img_servicio3{
             border: 40px;
             border-color: black;
-            
+
             height: 100px;
         }
 
-        
+
 
 /*************************************************************** FIN SERVICIO ***************************************************************/
 
 /*************************************************************** DESCARGAS ***************************************************************/
-        
+
         .fondo_carrito10{
             text-align: center;
         }
 
 /*************************************************************** SECCION SERVICIO TECNICO ***************************************************************/
 
-        
+
 
 
 /*************************************************************** FIN SECCION SERVICIO TECNICO ***************************************************************/
@@ -896,14 +927,14 @@ li ul{
         }
 
     #pie_pagina{
-   
+
             font-size: 10px;
             color: blanchedalmond;
         }
 
 /*************************************************************** PAGINA EN MANTENIMIENTO ***************************************************************/
 
-    
+
 
    .mantenimiento h1{
     font-size:20px;
@@ -920,7 +951,7 @@ li ul{
  .man_imagen img{
      width: 200px;
      height: 200px;
-     
+
 
  }
 
@@ -930,22 +961,22 @@ li ul{
 
 .stecnico img{
     height: 20px;
-               
+
 }
 
 .stecnico p{
     font-size: 12px ;
-    
+
 }
 
 #stdescrip h3{
     font-size: 16px ;
-    
+
 }
 
 #stdescrip p{
     font-size: 12px ;
-    
+
 }
 
 #buton1, #buton2, #buton3{
@@ -984,7 +1015,7 @@ margin-right: auto;
 	-webkit-justify-content: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	
+
 
 
    }
@@ -1006,14 +1037,14 @@ margin-right: auto;
   transition: .7s ease;
   -webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
   box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
-     
+
  }
 /********************************************************* FIN TARJETA CONSULTORIA *************************************/
 }
 /*************************************************************** FIN ST ***************************************************************/
-        
 
-    
+
+
 
 /************************************************************** FIN TAMAÑOS 576 ***********************************************************/
 
@@ -1023,12 +1054,12 @@ margin-right: auto;
 
 #pie_principal{
     background-color:rgb(3, 3, 3);
-   
+
 }
 
 #pie_principal p,a{
     text-transform: none;
-   
+
 }
 
 #pie_principal1{
@@ -1039,7 +1070,7 @@ margin-right: auto;
 
 
 #pie_pagina{
-   
+
     font-size: 14px;
     color: blanchedalmond;
 }
@@ -1050,6 +1081,6 @@ margin-right: auto;
 
 
 
-    
+
 
 
