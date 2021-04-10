@@ -25,6 +25,15 @@ include '../plantilla/bloque_admin.php'
 
     <div class="col-6">
 
+        <form enctype='multipart/form-data' action='cargar_1.php' method='POST'>
+            <input type="hidden" name="MAX_FILE_SIZE" value="300000" />
+            <input name='img' type='file'><br>
+            <input type="submit" value="Enviar fichero" />
+            <!-- <button name="submit" class="btn btn-primary" value="enviar fichero">Cargar Imagen</button> -->
+
+
+        </form>
+
         <form method="post" action="">
             <fieldset>
                 <legend style="font-size: 18pt"><b>Registro de productos en venta</b></legend>
@@ -48,6 +57,7 @@ include '../plantilla/bloque_admin.php'
                         placeholder="Ingresa tipo de descarga" />
                 </div>
 
+
                 <!-- <div class="form-group">
                         <label class="col-sm-2 control-label">Archivos</label>
                         <div class="col-sm-8">
@@ -57,12 +67,17 @@ include '../plantilla/bloque_admin.php'
                         <button name="submit"  class="btn btn-primary">Cargar Imagen</button>
                     </div> -->
 
-                <form enctype='multipart/form-data' action='' method='POST'>
-                    <input type="hidden" name="MAX_FILE_SIZE" value="30000" />
-                    <input name='img' type='file'><br>
-                    
+                
+                   <label for="">Insertar link Imagen</label>
+                    <input name='img' type='text'>http://localhost:8081/solucioneshc/web_solucioneshc/<br>
+                   
+                    <!-- <button name="submit" class="btn btn-primary" value="enviar fichero">Cargar Imagen</button> -->
 
-                </form>
+
+               
+
+
+
 
                 <button name="submit" class="btn btn-primary" value="enviar fichero">Cargar Imagen</button>
 
@@ -74,6 +89,9 @@ include '../plantilla/bloque_admin.php'
 
             </fieldset>
         </form>
+
+
+
 
 
     </div>
