@@ -10,7 +10,7 @@ include 'plantilla/cabecera.php';
 
 <div class="row mt-3 fondo_carrito10">
     <div class="col-sm-12 col-md-4 col-xl-2 botones ">
-        <a href="descarga.php" class="menu btn btn-success" id="">todo</a>
+        <a href="descarga.php" class="menu btn btn-success" id="">todos</a>
         <a href="descarga_1.php" class="menu btn btn-success" id="">libros</a>
         <a href="descarga_2.php" class="menu btn btn-success" id=""> audio libros</a>
         <a href="descarga_3.php" class="menu btn btn-success" id="inicio">programas</a>

@@ -532,6 +532,7 @@ li ul{
     width:200px ;
     display: block;
     margin-top: 2px;
+    text-transform: uppercase;
 }
 
 .botones .menu{
@@ -545,7 +546,7 @@ li ul{
 
 }
 
-.button_activado{
+.a_activado{
     background: blue;
 }
 
