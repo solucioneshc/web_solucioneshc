@@ -16,9 +16,23 @@
     text-transform:capitalize;
 }
 
+/* logo principal */
+
+.logo_principal{
+    width: 200px;
+}
+
+.boton_barra{
+    background-color: #0000FF;
+}
+
+
+/* DESCRIPCION DE SERVICIO */
+
 .contenidocard h5{
     text-transform: uppercase;
     font-weight: 900;
+    color: #004D04;
 
 }
 
@@ -31,7 +45,24 @@
 
 }
 
+.contenidocard li{
+    list-style: none;
+    
+}
 
+.contenidocard li img{
+    width: 15px;
+    margin-right: 5px;
+}
+
+.contenidocard .pie{
+    background-color: #FF8623;
+    text-align: center;
+} 
+
+
+
+/* FIN DESCRIPCION DE SERVICIO */
 
 
 
@@ -117,14 +148,22 @@ text-decoration: overline;
   font-size: 40px;
   letter-spacing: 6px;
   font-family: verdana, arial, helvetica;
+  color: #004D04;
 }
+
+#fondo1 .btn{
+    background-color: #0000FF;
+    
+}
+
+
 
 /************************************************************* MODAL- INICIO *************************************/
 
 #cajatex h5{
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(1, 46, 49);
+    color: #FF8623;
     text-transform: uppercase;
 
 
@@ -590,6 +629,16 @@ li ul{
             height: 500px;
         }
 
+/*********************************************************************CABECERA ***************************************************************/
+/* cabecera */
+
+.logo_principal{
+    width: 200px;
+}
+
+/* fin cabecera */
+
+
 /********************************************************************MODAL INICIO***************************************************************/
 
       .modal-inicio{
@@ -638,6 +687,16 @@ li ul{
         #seccion_banner{
             height: 500px;
         }
+
+        
+/*********************************************************************CABECERA ***************************************************************/
+/* cabecera */
+
+.logo_principal{
+    width: 200px;
+}
+
+/* fin cabecera */
 
 /***************************************************************PAGINA DE SERVICIO ***************************************************************/
 #fondo1 h1{
@@ -826,6 +885,16 @@ li ul{
        #seccion_banner{
         height: 300px;
        }
+
+       
+/*********************************************************************CABECERA ***************************************************************/
+/* cabecera */
+
+.logo_principal{
+    width: 200px;
+}
+
+/* fin cabecera */
 
 /*************************************************************** MODAL INICIO ***************************************************************/
 

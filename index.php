@@ -160,19 +160,19 @@ include 'plantilla/cabecera.php'
                     <h5 class="card-title">servicios</h5>
                     <p class="card-text">Le brindamos los siguientes servicios informáticos
                     </p>
-                    <li>Asesorías, consultorías & auditorias</li>
-                    <li>Virtualization </li>
-                    <li>Análisis de procesos </li>
-                    <li>Análisis de continuidad de negocio</li>
-                    <li>Soluciones web</li>
-                    <li>Almacenamientos en la nube</li>
-                    <li>Peritaje informático</li>
-                    <li>Soporte técnico</li>
-                    <li>Servidores y redes</li>
-                    <li>Seguridad informática</li>
-                    <li>Seguridad </li>
+                    <li><img src="imagenes/iconos/chek.svg" alt="">Asesorías, consultorías & auditorias</li>
+                    <li><img src="imagenes/iconos/chek.svg" alt="">Virtualization </li>
+                    <li><img src="imagenes/iconos/chek.svg" alt="">Análisis de procesos </li>
+                    <li><img src="imagenes/iconos/chek.svg" alt="">Análisis de continuidad de negocio</li>
+                    <li><img src="imagenes/iconos/chek.svg" alt="">Soluciones web</li>
+                    <li><img src="imagenes/iconos/chek.svg" alt="">Almacenamientos en la nube</li>
+                    <li><img src="imagenes/iconos/chek.svg" alt="">Peritaje informático</li>
+                    <li><img src="imagenes/iconos/chek.svg" alt="">Soporte técnico</li>
+                    <li><img src="imagenes/iconos/chek.svg" alt="">Servidores y redes</li>
+                    <li><img src="imagenes/iconos/chek.svg" alt="">Seguridad informática</li>
+                    <li><img src="imagenes/iconos/chek.svg" alt="">Seguridad </li>
                 </div>
-                <div class="card-footer">
+                <div class="card-footer pie">
                     <small class="text-muted">Asistencia Física y Remota</small>
                 </div>
             </div>
@@ -186,7 +186,7 @@ include 'plantilla/cabecera.php'
                         soluciones para el crecimiento de la organización
                     </p>
                 </div>
-                <div class="card-footer">
+                <div class="card-footer pie">
                     <small class="text-muted">Atención Personalizada</small>
                 </div>
             </div>
@@ -199,7 +199,7 @@ include 'plantilla/cabecera.php'
                         puede consultarnos por disponibilidad y le hacemos entrega de su compra, ofreceremos
                         asesorías para que pueda realizar una compra segura </p>
                 </div>
-                <div class="card-footer">
+                <div class="card-footer pie">
                     <small class="text-muted">Carrito de Compra</small>
                 </div>
             </div>
@@ -208,23 +208,23 @@ include 'plantilla/cabecera.php'
                 <div class="card-body">
                     <h5 class="card-title">CLIENTES</h5>
                     <p class="card-text">Algunos de los clientes satisfechos por el servicio realizado </p>
-                    <li>Commandair</li>
-                    <li>Corporación Todo Actitud</li>
-                    <li>Plastinieves</li>
-                    <li>Laboratorios Gainza</li>
-                    <li>Multi-respuestos Ideal</li>
-                    <li>Moneleca</li>
-                    <li>Energi Solar</li>
-                    <li>Corporacion Tortoleros </li>
-                    <li>Repolca</li>
-                    <li>Caicedo</li>
-                    <li>Chupi Plas</li>
-                    <li>Fagonza</li>
-                    <li>Tortolero</li>
-                    <li>Bensherman</li>
+                    <li><img src="imagenes/iconos/chek.svg" alt=""> Commandair</li>
+                    <li><img src="imagenes/iconos/chek.svg" alt="">Corporación Todo Actitud</li>
+                    <li><img src="imagenes/iconos/chek.svg" alt="">Plastinieves</li>
+                    <li><img src="imagenes/iconos/chek.svg" alt="">Laboratorios Gainza</li>
+                    <li><img src="imagenes/iconos/chek.svg" alt="">Multi-respuestos Ideal</li>
+                    <li><img src="imagenes/iconos/chek.svg" alt="">Moneleca</li>
+                    <li><img src="imagenes/iconos/chek.svg" alt="">Energi Solar</li>
+                    <li><img src="imagenes/iconos/chek.svg" alt="">Corporacion Tortoleros </li>
+                    <li><img src="imagenes/iconos/chek.svg" alt="">Repolca</li>
+                    <li><img src="imagenes/iconos/chek.svg" alt="">Caicedo</li>
+                    <li><img src="imagenes/iconos/chek.svg" alt="">Chupi Plas</li>
+                    <li><img src="imagenes/iconos/chek.svg" alt="">Fagonza</li>
+                    <li><img src="imagenes/iconos/chek.svg" alt="">Tortolero</li>
+                    <li><img src="imagenes/iconos/chek.svg" alt="">Bensherman</li>
 
                 </div>
-                <div class="card-footer">
+                <div class="card-footer pie">
                     <small class="text-muted">Asistencias</small>
                 </div>
             </div>
