@@ -14,6 +14,7 @@ include 'plantilla/cabecera.php';
         <a href="descarga_1.php" class="menu btn btn-success" id="inicio">libros</a>
         <a href="descarga_2.php" class="menu btn btn-success" id=""> audio libros</a>
         <a href="descarga_3.php" class="menu btn btn-success" id="">programas</a>
+        <a href="descarga_4.php" class="menu btn btn-success" id="">manuales</a>
 
         <!-- <button class="menu" id="inicio"><a href="descarga.php">Inicio</a></button>
         <button class="menu" id=""><a href="descarga_1.php">Inicio</a></button>
