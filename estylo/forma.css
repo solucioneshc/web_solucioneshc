@@ -499,7 +499,7 @@ background: linear-gradient(135deg, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 
 
  /**************************************DESCARGAS************************/
 
- /* MENU */
+ /* MENU ADMIN */
 
 
  .menu_admin li{
@@ -666,6 +666,45 @@ li ul{
     height: 150px;
 }
 /*********************************************************FIN CONSULTORIA *************************************/
+
+/* ********************************************************ADMINISTRATIVO  ************************************ */
+/* MENU ADMIN */
+
+
+.menu_admin li{
+    list-style-type:none;
+    position:relative;
+    width:150px;
+    }
+
+.menu_admin li a{
+        text-decoration:none;
+        display:inline-block;
+        padding:10px 10px;
+        width:150px;
+        height:30px;
+        border:1px solid #000;
+        color:rgb(252, 252, 253);
+        background-color:#000;
+        font-size: 12px;
+        }
+
+.menu_admin li a:hover{
+            color:rgb(21, 10, 122);
+            background-color:rgb(168, 15, 15);
+
+            }
+
+li ul{
+                display:none;
+                position:absolute;
+                top:0px;
+                left:150px;
+            }
+
+.menu_admin li:hover ul{display:block;}
+/* FIN MENU */
+/* ********************************************************FIN ADMINISTRATIVO  ************************************ */
 
 
     }
@@ -852,6 +891,46 @@ li ul{
 
  }
 /********************************************************* FIN TARJETA CONSULTORIA *************************************/
+
+/* ********************************************************ADMINISTRATIVO  ************************************ */
+/* MENU ADMIN */
+
+
+.menu_admin li{
+    list-style-type:none;
+    position:relative;
+    width:150px;
+    }
+
+.menu_admin li a{
+        text-decoration:none;
+        display:inline-block;
+        padding:10px 10px;
+        width:150px;
+        height:30px;
+        border:1px solid #000;
+        color:rgb(252, 252, 253);
+        background-color:#000;
+        font-size: 12px;
+        }
+
+.menu_admin li a:hover{
+            color:rgb(21, 10, 122);
+            background-color:rgb(168, 15, 15);
+
+            }
+
+li ul{
+                display:none;
+                position:absolute;
+                top:0px;
+                left:150px;
+            }
+
+.menu_admin li:hover ul{display:block;}
+/* FIN MENU */
+/* ********************************************************FIN ADMINISTRATIVO  ************************************ */
+
 
 }
 /*************************************************************** FIN SECCION SERVICIO TECNICO ***************************************************************/
@@ -1110,6 +1189,48 @@ margin-right: auto;
 
  }
 /********************************************************* FIN TARJETA CONSULTORIA *************************************/
+
+/* ********************************************************ADMINISTRATIVO  ************************************ */
+/* MENU ADMIN */
+
+
+.menu_admin li{
+    list-style-type:none;
+    position:relative;
+    width:150px;
+    }
+
+.menu_admin li a{
+        text-decoration:none;
+        display:inline-block;
+        padding:10px 10px;
+        width:150px;
+        height:30px;
+        border:1px solid #000;
+        color:rgb(252, 252, 253);
+        background-color:#000;
+        font-size: 12px;
+        }
+
+.menu_admin li a:hover{
+            color:rgb(21, 10, 122);
+            background-color:rgb(168, 15, 15);
+
+            }
+
+li ul{
+                display:none;
+                position:absolute;
+                top:0px;
+                left:150px;
+            }
+
+.menu_admin li:hover ul{display:block;}
+/* FIN MENU */
+/* ********************************************************FIN ADMINISTRATIVO  ************************************ */
+
+
+
 }
 /*************************************************************** FIN ST ***************************************************************/
 

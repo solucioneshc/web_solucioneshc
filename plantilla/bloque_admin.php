@@ -1,4 +1,4 @@
-<div class="col-3" id="fondo_carrito">
+<div class="col-md-4 col-sm-8 col-xs-12" id="fondo_carrito">
 
 
     <ul class="menu_admin">

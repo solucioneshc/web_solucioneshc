@@ -89,7 +89,7 @@ include 'plantilla/cabecera.php'
 
 <!--------------------------------------------- SECCIÓN DE BIENVENIDOS -------------------------------->
 
-<div class="row mt-3" id="fondo1">
+<div class="row mt-5" id="fondo1">
     <div class="col-md-6 col-sm-12 col-xs-12">
 
         <div class="jumbotron mt-3 " id="jum-1">
@@ -151,7 +151,7 @@ include 'plantilla/cabecera.php'
 
 
 <!-------------------------------------------- INICIO DESCRIPCION DE SERVICIO ------------------------->
-<div class="row mt-3">
+<div class="row mt-5">
     <div class="col-md-12 col-sm-12 col-xs-12">
         <div class="card-group contenidocard">
             <div class="card mr-2">

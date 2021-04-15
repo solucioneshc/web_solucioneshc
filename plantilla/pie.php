@@ -1,4 +1,4 @@
-<div class="row mt-3" id="pie_principal">
+<div class="row mt-5" id="pie_principal">
     <div class="col-md-3 col-sm-6 col-xs-12 mt-4">
         <p id="pie_pagina">Busca un Distribuidor</p>
     </div>
