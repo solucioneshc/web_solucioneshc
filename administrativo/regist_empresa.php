@@ -34,7 +34,7 @@ include '../plantilla/bloque_admin.php'
                 </div>
                 <div class="form-group">
                     <label style="font-size: 14pt; "><b>correo</b></label>
-                    <input type="text" name="correo" class="form-control" required placeholder="Ingresa mail" />
+                    <input type="email" name="correo" class="form-control" required placeholder="Ingresa mail" />
                 </div>
                 <div class="form-group">
                     <label style="font-size: 14pt; "><b>telefono</b></label>
