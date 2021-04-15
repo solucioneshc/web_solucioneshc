@@ -51,7 +51,7 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><img class="img-fluid logo_principal" src="imagenes/iconos/logo.png" alt=""></a>
+        <a class="navbar-brand" href="../index.php"><img class="img-fluid logo_principal" src="../imagenes/iconos/logo.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -60,7 +60,7 @@
 
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mr-auto ml-auto text-center ">
-                <li class="nav-item active">
+                <!-- <li class="nav-item active">
                     <a class="nav-link" href="../index.php">INICIO <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
@@ -68,7 +68,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../nosotros.php">QUIENES_SOMOS</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a class="nav-link" href="productos.php">CARRITO COMPRA</a>
                 </li>
@@ -82,11 +82,11 @@
                     
                     ?>)</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="../contacto.php">CONTACTOS</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
-                    <a href="">Bienvenido <strong><?php echo $_SESSION['user'];?></strong> </a>
+                    <a href="">Bienvenido <strong><br><?php echo $_SESSION['user'];?></strong> </a>
                     <br>
                     <a href="../conexion/desconectar.php"> Cerrar Cesión </a>
 

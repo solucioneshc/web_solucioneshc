@@ -55,7 +55,7 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">logo</a>
+        <a class="navbar-brand" href="../index.php"><img class="img-fluid logo_principal" src="../imagenes/iconos/logo.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -88,7 +88,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="">Bienvenido <strong><?php echo $_SESSION['user'];?></strong> </a>
+                    <a href="">Bienvenido <strong><br><?php echo $_SESSION['user'];?></strong> </a>
                     <br>
                     <a href="../conexion/desconectar.php"> Cerrar Cesión </a>
 
