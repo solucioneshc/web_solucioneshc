@@ -18,9 +18,9 @@
     			<thead>
     				<tr>
     					
-    					<td>usuario</td>
-    					<td>email</td>
-    					<td>rol</td>
+    					<td id=tabla_buscar>usuario</td>
+    					<td id=tabla_buscar>email</td>
+    					<td id=tabla_buscar>rol</td>
     					
     				</tr>
 
@@ -32,9 +32,9 @@
     	while ($fila = $resultado->fetch_assoc()) {
     		$salida.="<tr>
     					
-    					<td>".$fila['user']."</td>
-    					<td>".$fila['email']."</td>
-    					<td>".$fila['rol']."</td>
+    					<td >".$fila['user']."</td>
+    					<td >".$fila['email']."</td>
+    					<td >".$fila['rol']."</td>
     					
     				</tr>";
 

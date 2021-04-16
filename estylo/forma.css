@@ -613,6 +613,19 @@ li ul{
 
     }
 
+    .tabla_datos2 tr td, .tabla_datos tr td, .tabla_datos1 tr td{
+        color: #0000FF;
+        margin-left: 2px;
+       
+
+    }
+
+    .tabla_datos2  #tabla_buscar, .tabla_datos  #tabla_buscar, .tabla_datos1  #tabla_buscar{
+        font-size: 20px;
+        background-color: #73869b;
+        text-align: center;
+    }
+
  /***************************************************************FIN PAGINA EN MANTENIMIENTO***************************************************************/
 
 

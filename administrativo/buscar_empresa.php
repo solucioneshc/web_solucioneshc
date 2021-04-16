@@ -18,9 +18,9 @@
     			<thead>
     				<tr>
     					
-    					<td>nombre</td>
-    					<td>correo</td>
-    					<td>telefono</td>
+    					<td id=tabla_buscar>nombre</td>
+    					<td id=tabla_buscar>correo</td>
+    					<td id=tabla_buscar>telefono</td>
     					
     				</tr>
 

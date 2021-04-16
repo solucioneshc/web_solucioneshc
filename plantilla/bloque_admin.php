@@ -17,8 +17,8 @@
         <li>
             <a href="#">PRODUCTOS</a>
             <ul>
-                <li><a href="../administrativo/produc_regist.php">registro de usuario</a></li>
-                <li><a href="">consulta de productos</a></li>
+                <li><a href="../administrativo/produc_regist.php">Registro de Productos</a></li>
+                <li><a href="../administrativo/produc_buscar.php">consulta de productos</a></li>
                 <li><a href="">modificacion</a></li>
             </ul>
         </li>
@@ -37,7 +37,7 @@
 
             </ul>
         </li>
-        <li>
+        <!-- <li>
             <a href="#"></a>
             <ul>
                 <li><a href="produc_regist.php">registro de usuario</a></li>
@@ -52,7 +52,7 @@
                 <li><a href=""></a></li>
                 <li><a href=""></a></li>
             </ul>
-        </li>
+        </li> -->
 
     </ul>
 
