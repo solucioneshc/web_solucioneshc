@@ -69,7 +69,11 @@ include '../plantilla/bloque_admin.php'
 
                 
                    <label for="">Insertar link Imagen</label>
-                    <input name='img' type='text'>http://localhost:8081/solucioneshc/web_solucioneshc/<br>
+
+                    <input name='img' type='text'>
+                    http://localhost:8081/solucioneshc/web_solucioneshc/.......
+                    https://www.solucioneshc.com/imagenes/descargas/........
+                    <br>
                    
                     <!-- <button name="submit" class="btn btn-primary" value="enviar fichero">Cargar Imagen</button> -->
 

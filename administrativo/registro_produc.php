@@ -4,6 +4,8 @@
 	$precio=$_POST['precio'];
 	$desc= $_POST['desc'];
 	$img=$_POST['img'];
+	$id_tipo_producto=$_POST['id_tipo_producto'];
+
 
 	require("../conexion/conexion1.php");
 //la variable  $mysqli viene de connect_db que lo traigo con el require("connect_db.php");
@@ -16,7 +18,7 @@
 				
 				//require("connect_db.php");
 //la variable  $mysqli viene de connect_db que lo traigo con el require("connect_db.php");
-				mysqli_query($mysqli,"INSERT INTO tblproductos VALUES('','$nombre','$precio','$desc','$img')");
+				mysqli_query($mysqli,"INSERT INTO tblproductos VALUES('','$nombre','$precio','$desc','$img','$id_tipo_producto')");
 				//echo 'Se ha registrado con exito';
 				echo ' <script language="javascript">alert("Usuario registrado con éxito");</script> ';
 				

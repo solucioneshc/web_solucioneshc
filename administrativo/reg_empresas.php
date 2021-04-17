@@ -7,7 +7,7 @@
 
 	require("../conexion/conexion1.php");
 //la variable  $mysqli viene de connect_db que lo traigo con el require("connect_db.php");
-	$checkemail=mysqli_query($mysqli,"SELECT * FROM empresas WHERE nombre='$nombre'");
+	$checkemail=mysqli_query($mysqli,"SELECT * FROM empresas WHERE correo='$correo'");
 	$check_mail=mysqli_num_rows($checkemail);
 		
 			if($check_mail>0){

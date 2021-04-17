@@ -24,7 +24,7 @@ include '../plantilla/cabecera_2.php';
             <button type="submit" class="btn btn-primary mb-2" value="Aceptar">Submit</button>
         </form>
     </div>
-    <div class="col-6">
+    <div class="col-6 d-none">
         <form method="post" action="">
             <fieldset>
                 <legend style="font-size: 18pt"><b>Nuevos Registro</b></legend>

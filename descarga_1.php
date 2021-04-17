@@ -9,11 +9,12 @@ include 'plantilla/cabecera.php';
 
 
 <div class="row mt-3 fondo_carrito10">
-    <div class="col-sm-12 col-md-4 col-xl-2 botones " >
-    <a href="descarga.php" class="menu btn btn-success" id="">todo</a>
+    <div class="col-sm-12 col-md-4 col-xl-2 botones ">
+        <a href="descarga.php" class="menu btn btn-success" id="">todos</a>
         <a href="descarga_1.php" class="menu btn btn-success" id="inicio">libros</a>
         <a href="descarga_2.php" class="menu btn btn-success" id=""> audio libros</a>
-        <a href="descarga_3.php" class="menu btn btn-success" id="">programas</a> 
+        <a href="descarga_3.php" class="menu btn btn-success" id="">programas</a>
+        <a href="descarga_4.php" class="menu btn btn-success" id="">manuales</a>
 
         <!-- <button class="menu" id="inicio"><a href="descarga.php">Inicio</a></button>
         <button class="menu" id=""><a href="descarga_1.php">Inicio</a></button>
@@ -109,7 +110,7 @@ $(function() {
 })
 </script> -->
 
-<script src="js/menu_descarga.js"></script>
+    <script src="js/menu_descarga.js"></script>
 
 
     <?php

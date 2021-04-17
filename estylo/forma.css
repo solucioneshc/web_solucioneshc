@@ -16,9 +16,23 @@
     text-transform:capitalize;
 }
 
+/* logo principal */
+
+.logo_principal{
+    width: 200px;
+}
+
+.boton_barra{
+    background-color: #0000FF;
+}
+
+
+/* DESCRIPCION DE SERVICIO */
+
 .contenidocard h5{
     text-transform: uppercase;
     font-weight: 900;
+    color: #004D04;
 
 }
 
@@ -31,7 +45,24 @@
 
 }
 
+.contenidocard li{
+    list-style: none;
+    
+}
 
+.contenidocard li img{
+    width: 15px;
+    margin-right: 5px;
+}
+
+.contenidocard .pie{
+    background-color: #FF8623;
+    text-align: center;
+} 
+
+
+
+/* FIN DESCRIPCION DE SERVICIO */
 
 
 
@@ -117,14 +148,22 @@ text-decoration: overline;
   font-size: 40px;
   letter-spacing: 6px;
   font-family: verdana, arial, helvetica;
+  color: #004D04;
 }
+
+#fondo1 .btn{
+    background-color: #0000FF;
+    
+}
+
+
 
 /************************************************************* MODAL- INICIO *************************************/
 
 #cajatex h5{
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(1, 46, 49);
+    color: #FF8623;
     text-transform: uppercase;
 
 
@@ -460,7 +499,7 @@ background: linear-gradient(135deg, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 
 
  /**************************************DESCARGAS************************/
 
- /* MENU */
+ /* MENU ADMIN */
 
 
  .menu_admin li{
@@ -532,6 +571,7 @@ li ul{
     width:200px ;
     display: block;
     margin-top: 2px;
+    text-transform: uppercase;
 }
 
 .botones .menu{
@@ -545,7 +585,7 @@ li ul{
 
 }
 
-.button_activado{
+.a_activado{
     background: blue;
 }
 
@@ -573,6 +613,19 @@ li ul{
 
     }
 
+    .tabla_datos2 tr td, .tabla_datos tr td, .tabla_datos1 tr td{
+        color: #0000FF;
+        margin-left: 2px;
+       
+
+    }
+
+    .tabla_datos2  #tabla_buscar, .tabla_datos  #tabla_buscar, .tabla_datos1  #tabla_buscar{
+        font-size: 20px;
+        background-color: #73869b;
+        text-align: center;
+    }
+
  /***************************************************************FIN PAGINA EN MANTENIMIENTO***************************************************************/
 
 
@@ -588,6 +641,16 @@ li ul{
         .banner_servicio{
             height: 500px;
         }
+
+/*********************************************************************CABECERA ***************************************************************/
+/* cabecera */
+
+.logo_principal{
+    width: 200px;
+}
+
+/* fin cabecera */
+
 
 /********************************************************************MODAL INICIO***************************************************************/
 
@@ -617,6 +680,45 @@ li ul{
 }
 /*********************************************************FIN CONSULTORIA *************************************/
 
+/* ********************************************************ADMINISTRATIVO  ************************************ */
+/* MENU ADMIN */
+
+
+.menu_admin li{
+    list-style-type:none;
+    position:relative;
+    width:150px;
+    }
+
+.menu_admin li a{
+        text-decoration:none;
+        display:inline-block;
+        padding:10px 10px;
+        width:150px;
+        height:30px;
+        border:1px solid #000;
+        color:rgb(252, 252, 253);
+        background-color:#000;
+        font-size: 12px;
+        }
+
+.menu_admin li a:hover{
+            color:rgb(21, 10, 122);
+            background-color:rgb(168, 15, 15);
+
+            }
+
+li ul{
+                display:none;
+                position:absolute;
+                top:0px;
+                left:150px;
+            }
+
+.menu_admin li:hover ul{display:block;}
+/* FIN MENU */
+/* ********************************************************FIN ADMINISTRATIVO  ************************************ */
+
 
     }
 
@@ -637,6 +739,16 @@ li ul{
         #seccion_banner{
             height: 500px;
         }
+
+        
+/*********************************************************************CABECERA ***************************************************************/
+/* cabecera */
+
+.logo_principal{
+    width: 200px;
+}
+
+/* fin cabecera */
 
 /***************************************************************PAGINA DE SERVICIO ***************************************************************/
 #fondo1 h1{
@@ -793,6 +905,46 @@ li ul{
  }
 /********************************************************* FIN TARJETA CONSULTORIA *************************************/
 
+/* ********************************************************ADMINISTRATIVO  ************************************ */
+/* MENU ADMIN */
+
+
+.menu_admin li{
+    list-style-type:none;
+    position:relative;
+    width:150px;
+    }
+
+.menu_admin li a{
+        text-decoration:none;
+        display:inline-block;
+        padding:10px 10px;
+        width:150px;
+        height:30px;
+        border:1px solid #000;
+        color:rgb(252, 252, 253);
+        background-color:#000;
+        font-size: 12px;
+        }
+
+.menu_admin li a:hover{
+            color:rgb(21, 10, 122);
+            background-color:rgb(168, 15, 15);
+
+            }
+
+li ul{
+                display:none;
+                position:absolute;
+                top:0px;
+                left:150px;
+            }
+
+.menu_admin li:hover ul{display:block;}
+/* FIN MENU */
+/* ********************************************************FIN ADMINISTRATIVO  ************************************ */
+
+
 }
 /*************************************************************** FIN SECCION SERVICIO TECNICO ***************************************************************/
 
@@ -825,6 +977,16 @@ li ul{
        #seccion_banner{
         height: 300px;
        }
+
+       
+/*********************************************************************CABECERA ***************************************************************/
+/* cabecera */
+
+.logo_principal{
+    width: 200px;
+}
+
+/* fin cabecera */
 
 /*************************************************************** MODAL INICIO ***************************************************************/
 
@@ -1040,6 +1202,48 @@ margin-right: auto;
 
  }
 /********************************************************* FIN TARJETA CONSULTORIA *************************************/
+
+/* ********************************************************ADMINISTRATIVO  ************************************ */
+/* MENU ADMIN */
+
+
+.menu_admin li{
+    list-style-type:none;
+    position:relative;
+    width:150px;
+    }
+
+.menu_admin li a{
+        text-decoration:none;
+        display:inline-block;
+        padding:10px 10px;
+        width:150px;
+        height:30px;
+        border:1px solid #000;
+        color:rgb(252, 252, 253);
+        background-color:#000;
+        font-size: 12px;
+        }
+
+.menu_admin li a:hover{
+            color:rgb(21, 10, 122);
+            background-color:rgb(168, 15, 15);
+
+            }
+
+li ul{
+                display:none;
+                position:absolute;
+                top:0px;
+                left:150px;
+            }
+
+.menu_admin li:hover ul{display:block;}
+/* FIN MENU */
+/* ********************************************************FIN ADMINISTRATIVO  ************************************ */
+
+
+
 }
 /*************************************************************** FIN ST ***************************************************************/
 

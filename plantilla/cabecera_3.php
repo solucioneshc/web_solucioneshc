@@ -9,13 +9,49 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="../estylo/forma.css">
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K3DQFVLLX9"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-K3DQFVLLX9');
+    </script>
+
+
+
+
+    <!-- Google Tag Manager -->
+    <script>
+    (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-T434S62');
+    </script>
+    <!-- End Google Tag Manager -->
     <title>Document</title>
 </head>
 
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><img class="img-fluid" src="imagenes/logo1.png" alt=""></a>
+        <a class="navbar-brand" href="../index.php"><img class="img-fluid logo_principal" src="../imagenes/iconos/logo.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -24,7 +60,7 @@
 
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mr-auto ml-auto text-center ">
-                <li class="nav-item active">
+                <!-- <li class="nav-item active">
                     <a class="nav-link" href="../index.php">INICIO <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
@@ -32,7 +68,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../nosotros.php">QUIENES_SOMOS</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a class="nav-link" href="productos.php">CARRITO COMPRA</a>
                 </li>
@@ -46,11 +82,11 @@
                     
                     ?>)</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="../contacto.php">CONTACTOS</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
-                    <a href="">Bienvenido <strong><?php echo $_SESSION['user'];?></strong> </a>
+                    <a href="">Bienvenido <strong><br><?php echo $_SESSION['user'];?></strong> </a>
                     <br>
                     <a href="../conexion/desconectar.php"> Cerrar Cesión </a>
 

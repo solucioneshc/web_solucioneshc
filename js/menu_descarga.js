@@ -1,11 +1,11 @@
 $(document).ready(function(){
 
-    $('.botones #inicio').addClass('button_activado');
+    $('.botones #inicio').addClass('a_activado');
 
-    $('.menu').click(function(){
+    $('.menu').on('click',function(){
 
-        $('.menu').removeClass('button_activado');
-        $(this).addClass('button_activado');
+        $('.menu').removeClass('a_activado');
+        $(this).addClass('a_activado');
     
     
     });
