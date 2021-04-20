@@ -95,7 +95,7 @@ include 'plantilla/cabecera.php'
         <div class="jumbotron mt-3 " id="jum-1">
             <h1 class="display-4">Bienvenidos</h1>
             <p class="lead">Asesorías, consultorías & Auditorias</p>
-            <hr class="my-4">
+            <hr class="my-4 linea">
             <p>Compromiso y Calidad</p>
             <!-- <a class="btn btn-primary btn-lg" href="#" role="button">prueb</a> -->
         </div>
@@ -247,10 +247,10 @@ include 'plantilla/cabecera.php'
             <div class="modal-body  ">
                 <div class="row ">
                     <div class="col-md-12  modal-inicio">
-                        <button type="button" class="btn btn-outline-primary  "><a
+                        <button type="button" class="btn "><a
                                 href="consultoria.php">CONSULTORÍA Y
                                 ASESORÍAS</a></button>
-                        <button type="button" class="btn btn-outline-primary   "><a href="st.php">SERVICIO
+                        <button type="button" class="btn    "><a href="st.php">SERVICIO
                                 TÉCNICO</a></button>
                     </div>
                     <br>

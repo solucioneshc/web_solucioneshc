@@ -10,7 +10,7 @@ include 'plantilla/cabecera.php'
             <h1 class="display-4">Servicios Informáticos</h1>
             <p class="lead">Colocamos a su disposición los siguientes servicios informáticos
             </p>
-            <hr class="my-4">
+            <hr class="my-4 linea">
             <p>La tecnología sigue avanzando y actualizando cada dia, es por ello que debemos trabajar de la mano con
                 ella.</p>
             <a class="btn btn-primary btn-lg" href="st.php" role="button">Servicio Técnico</a>

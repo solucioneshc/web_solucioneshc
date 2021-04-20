@@ -5,7 +5,7 @@ include 'plantilla/cabecera.php'
 <div class="row mt-3" id="fondo1">
     <div class="col-md-6 col-sm-6 col-xs-12">
 
-        <div class="jumbotron mt-3">
+        <div class="jumbotron mt-3" id="jum-1">
             <h1 class="display-4">Contáctenos</h1>
             <p class="lead">Para comunicarse con nuestro equipo le dejamos a su disposición.</p>
             <hr class="my-4">
@@ -16,7 +16,7 @@ include 'plantilla/cabecera.php'
 
 
     </div>
-    <div class="col-md-6 col-sm-6 col-xs-12 mt-3">
+    <div class="col-md-6 col-sm-6 col-xs-12 mt-3 formulario">
         <form action="mail/enviar.php" method="post">
 
             <div class="form-group">

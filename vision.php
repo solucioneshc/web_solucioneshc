@@ -5,7 +5,7 @@ include 'plantilla/cabecera.php'
 <div class="row mt-3" id="fondo1">
     <div class="col-md-6 col-sm-6 col-xs-12">
 
-        <div class="jumbotron mt-3">
+        <div class="jumbotron mt-3" id="jum-1">
             <h1 class="display-4">Quienes Somos</h1>
             <p class="lead">Somos una empresa dedicada al area de tecnología en diferentes area, tenemos en el area
                 mas de 18 años ofreciendo a nuestros clientes calidad de servicio.</p>
@@ -17,7 +17,7 @@ include 'plantilla/cabecera.php'
 
 
     </div>
-    <div class="col-md-6 col-sm-6 col-xs-12 mt-3">
+    <div class="col-md-6 col-sm-6 col-xs-12 mt-3 seccion2">
         <h2>Visión</h2>
         <p>Ser una empresa que ayude aportar conocimientos para el uso de la tecnología, que las empresas puedan darle
             el 100% del beneficio y uso a los equipos informáticos </p>

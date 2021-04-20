@@ -23,16 +23,22 @@
 }
 
 .boton_barra{
-    background-color: #0000FF;
+    background-color: #F55D00;
 }
 
 
 /* DESCRIPCION DE SERVICIO */
 
+.linea{
+    
+    border-top: 2px solid;
+    color: #707070;
+}
+
 .contenidocard h5{
     text-transform: uppercase;
     font-weight: 900;
-    color: #004D04;
+    color: #0A5BBF;
 
 }
 
@@ -56,7 +62,7 @@
 }
 
 .contenidocard .pie{
-    background-color: #FF8623;
+    background-color: #F55D00;
     text-align: center;
 } 
 
@@ -101,6 +107,7 @@ text-decoration: overline;
 
 #fondo1 p{
     font-size: 17px;
+    color: #fff;
 
     text-align: justify;
     text-indent: 30px;
@@ -148,11 +155,11 @@ text-decoration: overline;
   font-size: 40px;
   letter-spacing: 6px;
   font-family: verdana, arial, helvetica;
-  color: #004D04;
+  color: #fff;
 }
 
 #fondo1 .btn{
-    background-color: #0000FF;
+    background-color:#F55D00;
     
 }
 
@@ -163,8 +170,9 @@ text-decoration: overline;
 #cajatex h5{
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #FF8623;
+    color: #F55D00;
     text-transform: uppercase;
+    word-spacing:10px;
 
 
 }
@@ -172,6 +180,7 @@ text-decoration: overline;
 #cajatex{
     display: flex;
     justify-content: center;
+    background-color: #57D6F2;
 }
 
 .modalinicio a{
@@ -202,12 +211,20 @@ text-decoration: overline;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 3px;
-    color:rgb(13, 61, 133)
-
-
-
+    color: rgb(241, 240, 247);
 
 }
+
+.modalinicio .btn{
+background-color: #0A5BBF;
+
+}
+
+.modalinicio .btn a{
+    color: white;
+    
+    }
+
 
 
 /************************************************************ SERVICIO - MODAL ***********************************/
@@ -373,10 +390,17 @@ margin: 10px 20px;
    font-size: 16px;
    text-indent: 20px;
 
-
-
-
 }
+
+#fondo1 .seccion2 h2{
+    color: #F55D00 ;
+}
+
+#fondo1 .seccion2 p{
+    line-height: 40px;
+    letter-spacing:2px
+}
+
 
 /************************************************************* ST ***********************************/
 
@@ -480,8 +504,9 @@ margin: 10px 20px;
 
 
 #fondo1{
+    background-color:#0A5BBF ;
     /* background-image: url('../imagenes/fondo3.jpg');
-    height: 100%; */
+    height: 100%; 
 background: rgba(183,222,237,1);
 background: -moz-linear-gradient(-45deg, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 3%, rgba(118,145,219,1) 39%, rgba(84,105,209,1) 58%, rgba(33,180,226,1) 80%, rgba(183,222,237,1) 100%);
 background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(183,222,237,1)), color-stop(3%, rgba(183,222,237,1)), color-stop(39%, rgba(118,145,219,1)), color-stop(58%, rgba(84,105,209,1)), color-stop(80%, rgba(33,180,226,1)), color-stop(100%, rgba(183,222,237,1)));
@@ -489,10 +514,11 @@ background: -webkit-linear-gradient(-45deg, rgba(183,222,237,1) 0%, rgba(183,222
 background: -o-linear-gradient(-45deg, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 3%, rgba(118,145,219,1) 39%, rgba(84,105,209,1) 58%, rgba(33,180,226,1) 80%, rgba(183,222,237,1) 100%);
 background: -ms-linear-gradient(-45deg, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 3%, rgba(118,145,219,1) 39%, rgba(84,105,209,1) 58%, rgba(33,180,226,1) 80%, rgba(183,222,237,1) 100%);
 background: linear-gradient(135deg, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 3%, rgba(118,145,219,1) 39%, rgba(84,105,209,1) 58%, rgba(33,180,226,1) 80%, rgba(183,222,237,1) 100%);
-
+*/
 }
 #jum-1{
-    opacity: 0.7;
+    opacity: 0.5;
+    background-color: #57D6F2;
 }
 
 
@@ -567,26 +593,37 @@ li ul{
 
 /* ************************************MENU DESCARGAS - PRODUCTOS**************** */
 
+
+
 .botones a{
     width:200px ;
     display: block;
     margin-top: 2px;
     text-transform: uppercase;
+    
+    
+    
+    
+    
+    
 }
 
 .botones .menu{
     text-decoration: none;
     border: none;
-
-
-
-    display: inline-block;
+   display: inline-block;
     font-size: 20px;
+    
+    
+    
+    
+    
+    
 
 }
 
 .a_activado{
-    background: blue;
+    background: #F55D00 ;
 }
 
 /* ************************************FIN MENU DESCARGAS - PRODUCTOS**************** */
@@ -627,6 +664,18 @@ li ul{
     }
 
  /***************************************************************FIN PAGINA EN MANTENIMIENTO***************************************************************/
+
+/* ***************************************************************cCONTACTOS******************************************************** */
+
+.formulario label{
+    color: #F55D00;
+    font-size: 20px;
+}
+
+.formulario small{
+    color: white;
+    font-size: 15px;
+}
 
 
 
@@ -753,6 +802,7 @@ li ul{
 /***************************************************************PAGINA DE SERVICIO ***************************************************************/
 #fondo1 h1{
     font-size: 30px;
+    
 
 }
 

@@ -12,10 +12,10 @@ include 'plantilla/cabecera.php';
 
 <div class="row mt-3">
     <div class="col-sm-12 col-md-4 col-xl-2 botones">
-        <a href="productos.php" class="menu btn btn-success" id="">todo</a>
-        <a href="productos_1.php" class="menu btn btn-success" id="">computadoras</a>
-        <a href="productos_2.php" class="menu btn btn-success" id=""> licencias</a>
-        <a href="productos_3.php" class="menu btn btn-success" id="inicio">software</a>
+        <a href="productos.php" class="menu btn btn-primary" id="">todo</a>
+        <a href="productos_1.php" class="menu btn btn-primary" id="">computadoras</a>
+        <a href="productos_2.php" class="menu btn btn-primary" id=""> licencias</a>
+        <a href="productos_3.php" class="menu btn btn-primary" id="inicio">software</a>
     </div>
     <div class="col-10">
         <?php if ($mensaje!=""){ ?>
