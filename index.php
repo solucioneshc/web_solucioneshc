@@ -157,11 +157,11 @@ include 'plantilla/cabecera.php'
             <div class="card mr-2">
                 <img src="imagenes/inicio/servicio_tecnico1.jpg" class="card-img-top d-none d-sm-block " alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">servicios</h5>
+                    <h5 class="card-title">servicios.</h5>
                     <p class="card-text">Le brindamos los siguientes servicios informáticos
                     </p>
-                    <li><img src="imagenes/iconos/chek.svg" alt="">Asesorías, consultorías & auditorias</li>
-                    <li><img src="imagenes/iconos/chek.svg" alt="">Virtualization </li>
+                    <li><img src="imagenes/iconos/chek.svg" alt="">Asesorías, consultorías & auditorías</li>
+                    <li><img src="imagenes/iconos/chek.svg" alt="">Virtualización </li>
                     <li><img src="imagenes/iconos/chek.svg" alt="">Análisis de procesos </li>
                     <li><img src="imagenes/iconos/chek.svg" alt="">Análisis de continuidad de negocio</li>
                     <li><img src="imagenes/iconos/chek.svg" alt="">Soluciones web</li>
@@ -173,13 +173,13 @@ include 'plantilla/cabecera.php'
                     <li><img src="imagenes/iconos/chek.svg" alt="">Seguridad </li>
                 </div>
                 <div class="card-footer pie">
-                    <small class="text-muted">Asistencia Física y Remota</small>
+                    <small class="">Asistencia Física y Remota</small>
                 </div>
             </div>
             <div class="card mr-2">
                 <img src="imagenes/organizacion1.jpg" class="card-img-top d-none d-sm-block" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">la empresa</h5>
+                    <h5 class="card-title">la empresa.</h5>
                     <p class="card-text">Personal que cuenta con la experiencia en el área por mas de 18 años en el
                         rubro de la informática, ofreciendo soluciones a múltiples empresas, la atención, calidad de
                         servicio y pasión por nuestro trabajo es lo que nos hace continuar cada día, ofreciendo mejores
@@ -187,26 +187,26 @@ include 'plantilla/cabecera.php'
                     </p>
                 </div>
                 <div class="card-footer pie">
-                    <small class="text-muted">Atención Personalizada</small>
+                    <small class="">Atención Personalizada</small>
                 </div>
             </div>
             <div class="card mr-2">
                 <img src="imagenes/carrito1.jpg" class="card-img-top d-none d-sm-block" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">productos en venta</h5>
-                    <p class="card-text">Colocamos a su disposición una tienda donde encontrara diferentes productos
-                        informáticos,
-                        puede consultarnos por disponibilidad y le hacemos entrega de su compra, ofreceremos
+                    <h5 class="card-title">productos en venta.</h5>
+                    <p class="card-text">Colocamos a su disposición una tienda donde encontrará diferentes productos
+                        informáticos.
+                        Puede consultarnos por disponibilidad y le hacemos entrega de su compra, ofreceremos
                         asesorías para que pueda realizar una compra segura </p>
                 </div>
                 <div class="card-footer pie">
-                    <small class="text-muted">Carrito de Compra</small>
+                    <small class="">Carrito de Compra</small>
                 </div>
             </div>
             <div class="card mr-2">
                 <img src="imagenes/clientes1.jpg" class="card-img-top d-none d-sm-block" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">CLIENTES</h5>
+                    <h5 class="card-title">CLIENTES.</h5>
                     <p class="card-text">Algunos de los clientes satisfechos por el servicio realizado </p>
                     <li><img src="imagenes/iconos/chek.svg" alt=""> Commandair</li>
                     <li><img src="imagenes/iconos/chek.svg" alt="">Corporación Todo Actitud</li>
@@ -225,7 +225,7 @@ include 'plantilla/cabecera.php'
 
                 </div>
                 <div class="card-footer pie">
-                    <small class="text-muted">Asistencias</small>
+                    <small class="">Asistencias</small>
                 </div>
             </div>
         </div>
@@ -257,7 +257,7 @@ include 'plantilla/cabecera.php'
                     <div class="container-fluid descripcion">
                         <br>
                         <h3>Nota:</h3>
-                        <p>"Si desea información general dar clip fuera de este cuadro"</p>
+                        <p>"Si desea información general dar clik fuera de este cuadro"</p>
                     </div>
                     <div class="col-12 publicidad">
                         <img src="imagenes/publicidad_inicio/serviciotecnico.jpeg" alt="">

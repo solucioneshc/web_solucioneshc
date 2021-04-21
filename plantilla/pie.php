@@ -5,8 +5,8 @@
     <div class="col-md-3 col-sm-6 col-xs-12 mt-4">
         <p id="pie_pagina">Compra Online</p>
 
-        <ul><a href=""> Tienda en Linea</a></ul>
-        <ul><a href=""> libro de Reclamaciones</a></ul>
+        <ul><a href=""> Tienda en Línea</a></ul>
+        <ul><a href=""> Libro de Reclamaciones</a></ul>
         <ul><a href=""> Políticas y Privacidad en Linea</a></ul>
         <ul><a href=""> Términos y Condiciones</a></ul>
 
@@ -57,7 +57,7 @@
     <div class="col-12" id="pie_pagina1">
         <p> Política de privacidad @2020, todos los derechos reservados</p>
         
-        <p>soluciones hc</p>
+        <p>SOLUCIONESHC</p>
     </div>
 </div>
 

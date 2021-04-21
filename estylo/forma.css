@@ -66,6 +66,11 @@
     text-align: center;
 } 
 
+.contenidocard .pie small{
+    color: white;
+    font-size: 20px;
+}
+
 
 
 /* FIN DESCRIPCION DE SERVICIO */
