@@ -5,13 +5,17 @@ include 'plantilla/cabecera.php'
 <div class="row mt-3" id="fondo1">
     <div class="col-md-6 col-sm-6 col-xs-12">
 
-        <div class="jumbotron mt-3" id="jum-1">
+        <div class="textjum" id="">
             <h1 class="display-4">Contáctenos</h1>
             <p class="lead">Para comunicarse con nuestro equipo le dejamos a su disposición.</p>
             <hr class="my-4">
             <p>Visite nuestra tarjeta digital</p>
-             <a class="btn btn-primary btn-lg" href="../tarjeta_digital/index.php" role="button">Visitar</a>
+            <a class="btn btn-primary btn-lg" href="../tarjeta_digital/index.php" role="button">Visitar</a>
             <!-- <a class="btn btn-primary btn-lg" href="vision.php" role="button">vision</a>  -->
+        </div>
+
+        <div class="jumbotron mt-3" id="jum-1">
+
         </div>
 
 
@@ -34,7 +38,7 @@ include 'plantilla/cabecera.php'
                     placeholder="correo electrónico" name="email" required>
                 <small id="emailHelp" class="form-text text-muted">Ingrese su correo</small>
             </div>
-            
+
             <label for="exampleInputEmail1">Descripción</label><br>
             <textarea cols="60" rows="8" name="mensaje" class="textarea"></textarea>
             <br>

@@ -33,6 +33,7 @@
     
     border-top: 2px solid;
     color: #707070;
+    margin-right: 20px;
 }
 
 .contenidocard h5{
@@ -175,7 +176,7 @@ text-decoration: overline;
 #cajatex h5{
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #F55D00;
+    color: white;
     text-transform: uppercase;
     word-spacing:10px;
 
@@ -185,7 +186,7 @@ text-decoration: overline;
 #cajatex{
     display: flex;
     justify-content: center;
-    background-color: #57D6F2;
+    background-color: #F55D00;
 }
 
 .modalinicio a{
@@ -236,6 +237,7 @@ background-color: #0A5BBF;
 
 #consultoria h5, #infraestructura h5, #seguridad h5, #desarrollo h5, #tecnico h5, #helpdesk h5   {
     font-size: 30px;
+    text-align: center;
 
 }
 
@@ -244,6 +246,11 @@ background-color: #0A5BBF;
     text-indent: 30px;
     text-justify:inter-word;
     text-align: justify;
+}
+
+#consultoria .modal-header, #infraestructura .modal-header, #seguridad .modal-header, #desarrollo .modal-header, #tecnico .modal-header, #helpdesk .modal-header {
+background-color: #F55D00;
+text-align: center;
 }
 
 
@@ -524,6 +531,19 @@ background: linear-gradient(135deg, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 
 #jum-1{
     opacity: 0.5;
     background-color: #57D6F2;
+    height: 370px;
+    /* width: 650px;
+    height: 370px;
+    margin-top: 15px;
+    border-radius: 3em; */
+}
+
+.textjum {
+    position: absolute;
+    z-index: 100;
+    margin-top: 80px;
+    margin-left: 10px;
+    
 }
 
 
@@ -816,6 +836,24 @@ li ul{
 
 }
 
+#jum-1{
+    opacity: 0.5;
+    background-color: #57D6F2;
+    height: 330px;
+    /* width: 650px;
+    height: 370px;
+    margin-top: 15px;
+    border-radius: 3em; */
+}
+
+.textjum {
+    position: absolute;
+    z-index: 100;
+    margin-top: 80px;
+    margin-left: 10px;
+    
+}
+
  /*************************************************************** MODAL INICIO ***************************************************************/
 
  .modal-inicio{
@@ -872,6 +910,24 @@ li ul{
 #fondo1 p{
  font-size: 12px;
 
+}
+
+#jum-1{
+    opacity: 0.5;
+    background-color: #57D6F2;
+    height: 330px;
+    /* width: 650px;
+    height: 370px;
+    margin-top: 15px;
+    border-radius: 3em; */
+}
+
+.textjum {
+    position: absolute;
+    z-index: 100;
+    margin-top: 80px;
+    margin-left: 10px;
+    
 }
 
 
@@ -1064,6 +1120,24 @@ li ul{
 
     }
 
+    #jum-1{
+        opacity: 0.5;
+        background-color: #57D6F2;
+        height: 330px;
+        /* width: 650px;
+        height: 370px;
+        margin-top: 15px;
+        border-radius: 3em; */
+    }
+    
+    .textjum {
+        position: absolute;
+        z-index: 100;
+        margin-top: 80px;
+        margin-left: 10px;
+        
+    }
+
 
 
        .servicio_modal #consultoria h5{
@@ -1105,7 +1179,7 @@ li ul{
         }
 
         .servicio1{
-            width: 200px;
+            width: 240px;
             text-align: center;
         }
 

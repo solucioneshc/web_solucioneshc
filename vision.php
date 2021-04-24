@@ -5,7 +5,7 @@ include 'plantilla/cabecera.php'
 <div class="row mt-3" id="fondo1">
     <div class="col-md-6 col-sm-6 col-xs-12">
 
-        <div class="jumbotron mt-3" id="jum-1">
+        <div class="textjum" id="">
             <h1 class="display-4">Quienes Somos</h1>
             <p class="lead">Somos una empresa dedicada al area de tecnología en diferentes area, tenemos en el area
                 mas de 18 años ofreciendo a nuestros clientes calidad de servicio.</p>
@@ -13,6 +13,10 @@ include 'plantilla/cabecera.php'
             <p></p>
             <a class="btn btn-primary btn-lg" href="nosotros.php" role="button">misión</a>
             <a class="btn btn-primary btn-lg" href="vision.php" role="button">vision</a>
+        </div>
+
+        <div class="jumbotron mt-3" id="jum-1">
+
         </div>
 
 

@@ -6,7 +6,7 @@ include 'plantilla/cabecera.php'
 <div class="row mt-3" id="fondo1">
     <div class="col-md-6 col-sm-12 col-xs-12">
 
-        <div class="jumbotron mt-3" id="jum-1">
+        <div class="textjum" id="">
             <h1 class="display-4">Servicios Informáticos</h1>
             <p class="lead">Colocamos a su disposición los siguientes servicios informáticos
             </p>
@@ -14,6 +14,10 @@ include 'plantilla/cabecera.php'
             <p>La tecnología sigue avanzando y actualizando cada dia, es por ello que debemos trabajar de la mano con
                 ella.</p>
             <a class="btn btn-primary btn-lg" href="st.php" role="button">Servicio Técnico</a>
+        </div>
+
+        <div class="jumbotron mt-3" id="jum-1">
+
         </div>
 
 
@@ -91,7 +95,7 @@ include 'plantilla/cabecera.php'
                 </div>
                 <a class="btn btn-primary btn-lg" href="consultoria.php" role="button">todos los servicios</a>
                 <div class="modal-footer">
-                    
+
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 
                 </div>
@@ -192,7 +196,7 @@ include 'plantilla/cabecera.php'
                     </button>
                 </div>
                 <div class="modal-body">
-                   <p>Trasportamos la personalidad de tu marca de un mundo  real a un mundo digital</p> 
+                    <p>Trasportamos la personalidad de tu marca de un mundo real a un mundo digital</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
