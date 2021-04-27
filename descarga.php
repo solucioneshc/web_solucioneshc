@@ -48,7 +48,7 @@ include 'plantilla/cabecera.php';
 
                 <?php foreach($listaProductos as $producto){ ?>
 
-                <div class="  ml-3 grid_descargas">
+                <div class="  ml-3 mt-2 grid_descargas">
                     <div class="card">
                         <img title=<?php echo $producto ['nombre'];?> alt=<?php echo $producto ['nombre'];?>
                             class="card-img-top" data-toggle="popover" data-trigger="hover"
