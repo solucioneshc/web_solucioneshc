@@ -24,9 +24,12 @@
 
     gtag('config', 'G-K3DQFVLLX9');
     </script>
+    <!-- google adsense -->
 
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1157893841653820"
+        crossorigin="anonymous"></script>
 
-
+<!-- fin google adsense -->
 
     <!-- Google Tag Manager -->
     <script>
@@ -53,9 +56,15 @@
 </head>
 
 <body>
+<!-- anuncios AMP -->
+<script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+</script>
+<!-- fin anuncios AMP -->
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.php"><img class="img-fluid logo_principal" src="imagenes/iconos/logo.png" alt=""></a>
+        <a class="navbar-brand" href="index.php"><img class="img-fluid logo_principal" src="imagenes/iconos/logo.png"
+                alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -65,25 +74,25 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mr-auto ml-auto text-center ">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.php">INICIO <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.php">Inicio<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="servicio.php">SERVICIO</a>
+                    <a class="nav-link" href="servicio.php">Servicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="nosotros.php">QUIENES_SOMOS</a>
+                    <a class="nav-link" href="nosotros.php">Nosotros</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://solucioneshc.com/blog/">BLOG</a>
+                    <a class="nav-link" href="https://solucioneshc.com/blog/">Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="descarga.php">DESCARGA</a>
+                    <a class="nav-link" href="descarga.php">Descarga</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="pag_mantenimiento.php">PORTAFOLIO DE INVERSION</a>
+                    <a class="nav-link" href="pag_mantenimiento.php">Portafolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="productos.php">CARRITO COMPRA</a>
+                    <a class="nav-link" href="productos.php">Carrito</a>
                 </li>
 
                 <!-- validacion para que se muestre en el menu cuantos se seleccionaron   -->
@@ -98,7 +107,7 @@
                     ?>)</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contacto.php">CONTACTOS</a>
+                    <a class="nav-link" href="contacto.php">Contactos</a>
                 </li>
 
             </ul>

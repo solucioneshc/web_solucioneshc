@@ -13,8 +13,8 @@ include 'plantilla/cabecera.php'
             </p>
             <hr class="my-4">
             <p></p>
-            <a class="btn btn-primary btn-lg" href="nosotros.php" role="button">misión</a>
-            <a class="btn btn-primary btn-lg" href="vision.php" role="button">vision</a>
+            <a class="btn btn-primary btn-lg" href="nosotros.php" role="button">Misión</a>
+            <a class="btn btn-primary btn-lg" href="vision.php" role="button">Visión</a>
         </div>
 
         <div class="jumbotron mt-3" id="jum-1">

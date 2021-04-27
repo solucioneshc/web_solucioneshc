@@ -94,7 +94,7 @@ include 'plantilla/cabecera.php'
 
         <div class="textjum" id="">
             <h1 class="display-4">Bienvenidos</h1>
-            <p class="lead">Asesorías, consultorías & Auditorias</p>
+            <p class="lead">Asesorías, consultorías & Auditorías</p>
             <hr class="my-4 linea">
             <p>Compromiso y Calidad</p>
             <!-- <a class="btn btn-primary btn-lg" href="#" role="button">prueb</a> -->
@@ -161,8 +161,8 @@ include 'plantilla/cabecera.php'
             <div class="card mr-2">
                 <img src="imagenes/inicio/servicio_tecnico1.jpg" class="card-img-top d-none d-sm-block " alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">servicios.</h5>
-                    <p class="card-text">Le brindamos los siguientes servicios informáticos
+                    <h5 class="card-title">servicios</h5>
+                    <p class="card-text">Le brindamos los siguientes servicios informáticos.
                     </p>
                     <li><img src="imagenes/iconos/chek.svg" alt="">Asesorías, consultorías & auditorías</li>
                     <li><img src="imagenes/iconos/chek.svg" alt="">Virtualización </li>
@@ -183,11 +183,11 @@ include 'plantilla/cabecera.php'
             <div class="card mr-2">
                 <img src="imagenes/organizacion1.jpg" class="card-img-top d-none d-sm-block" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">la empresa.</h5>
+                    <h5 class="card-title">la empresa</h5>
                     <p class="card-text">Personal que cuenta con la experiencia en el área por mas de 18 años en el
                         rubro de la informática, ofreciendo soluciones a múltiples empresas, la atención, calidad de
                         servicio y pasión por nuestro trabajo es lo que nos hace continuar cada día, ofreciendo mejores
-                        soluciones para el crecimiento de la organización
+                        soluciones para el crecimiento de la organización.
                     </p>
                 </div>
                 <div class="card-footer pie">
@@ -197,11 +197,11 @@ include 'plantilla/cabecera.php'
             <div class="card mr-2">
                 <img src="imagenes/carrito1.jpg" class="card-img-top d-none d-sm-block" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">productos en venta.</h5>
+                    <h5 class="card-title">productos en venta</h5>
                     <p class="card-text">Colocamos a su disposición una tienda donde encontrará diferentes productos
                         informáticos.
                         Puede consultarnos por disponibilidad y le hacemos entrega de su compra, ofreceremos
-                        asesorías para que pueda realizar una compra segura </p>
+                        asesorías para que pueda realizar una compra segura. </p>
                 </div>
                 <div class="card-footer pie">
                     <small class="">Carrito de Compra</small>
@@ -210,8 +210,8 @@ include 'plantilla/cabecera.php'
             <div class="card mr-2">
                 <img src="imagenes/clientes1.jpg" class="card-img-top d-none d-sm-block" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">CLIENTES.</h5>
-                    <p class="card-text">Algunos de los clientes satisfechos por el servicio realizado </p>
+                    <h5 class="card-title">CLIENTES</h5>
+                    <p class="card-text">Algunos de los clientes satisfechos por el servicio realizado. </p>
                     <li><img src="imagenes/iconos/chek.svg" alt=""> Commandair</li>
                     <li><img src="imagenes/iconos/chek.svg" alt="">Corporación Todo Actitud</li>
                     <li><img src="imagenes/iconos/chek.svg" alt="">Plastinieves</li>

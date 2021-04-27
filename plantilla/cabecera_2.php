@@ -73,7 +73,7 @@
                     <a class="nav-link" href="../pag_mantenimiento.php">PORTAFOLIO DE INVERSION</a>
                 </li> -->
                 <li class="nav-item">
-                    <a class="nav-link" href="../productos.php">CARRITO COMPRA</a>
+                    <a class="nav-link" href="../productos.php">Carrito</a>
                 </li>
                 <li class="nav-item">
 
