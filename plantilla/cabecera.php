@@ -29,6 +29,8 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1157893841653820"
         crossorigin="anonymous"></script>
 
+        
+
 <!-- fin google adsense -->
 
     <!-- Google Tag Manager -->
