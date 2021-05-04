@@ -29,9 +29,12 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1157893841653820"
         crossorigin="anonymous"></script>
 
-        
+    <script data-ad-client="ca-pub-1157893841653820" async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-<!-- fin google adsense -->
+
+
+    <!-- fin google adsense -->
 
     <!-- Google Tag Manager -->
     <script>
@@ -58,11 +61,10 @@
 </head>
 
 <body>
-<!-- anuncios AMP -->
-<script async custom-element="amp-auto-ads"
-        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
-</script>
-<!-- fin anuncios AMP -->
+    <!-- anuncios AMP -->
+    <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+    </script>
+    <!-- fin anuncios AMP -->
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="index.php"><img class="img-fluid logo_principal" src="imagenes/iconos/logo.png"
